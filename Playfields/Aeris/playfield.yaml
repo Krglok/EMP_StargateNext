@@ -18,12 +18,7 @@ UseRandom: True
 AllowCV: True
 Difficulty: 2
 PlayfieldType: Planet
-Description: >-
-  [c][e0e020]Origin: %Origin%[-][/c]
-
-  [c][d29818]Difficulty: Easy[-][/c]
-
-  Aeris 2 is a steamy marsh planet filled with swamps,low radiation, tall grass and lots of forest. PVE Planet and Breathable.
+Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: Easy[-][/c]\nAeris ist ein erdähnlicher Planet. Angenhmer Temperaturen, reiche Faune und Flora. Es gibt eine eiheimische Humanoide Rasse.\r\nEinige Alienvölker haben hier Stützpunkte errichtet. Diese Alien sind nict unbedingt freundlich.\r\n\r\nIdeal für Anfänger. "
 SunFlare: EnvironmentalEffects/SunFlareBlue
 SpecialEffectsLocal:
 - Name: EnvironmentalEffects/Sparks
@@ -145,23 +140,17 @@ RandomResources:
   DepthMinMax: [0, 1]
   DroneProb: 0.5
   MaxDroneCount: 3
-- Name: PentaxidResource
-  CountMinMax: [10, 12]
+- Name: MagnesiumResource
+  CountMinMax: [3, 5]
   SizeMinMax: [4, 30]
-  DepthMinMax: [0, 1]
+  DepthMinMax: [0, 3]
   DroneProb: 0.10000000000000001
   MaxDroneCount: 1
-- Name: SathiumResource
-  CountMinMax: [5, 12]
-  SizeMinMax: [4, 30]
-  DepthMinMax: [0, 1]
-  DroneProb: 0.5
-  MaxDroneCount: 3
 FixedResources: []
 AsteroidResources:
 - Name: IronResource
-  Threshold: 0.59999999999999998
-  Amount: 0.5
+  Threshold: 0.10000000000000001
+  Amount: 0.10000000000000001
 - Name: CopperResource
   Threshold: 0.29999999999999999
   Amount: 0.29999999999999999
@@ -176,6 +165,9 @@ AsteroidResources:
   Amount: 0.20000000000000001
 - Name: SathiumResource
   Threshold: 0.5
+  Amount: 0.5
+- Name: MagnesiumResource
+  Threshold: 0.10000000000000001
   Amount: 0.5
 Terrain:
   Name: Temperate
@@ -491,7 +483,7 @@ POIs:
       Value: 1440
     - Key: MapMarker
       Value: Neutral
-  - GroupName: alb
+  - GroupName: Artifacts
     CountMinMax: [8, 11]
     DroneProb: 1
     DronesMinMax: [1, 5]
@@ -500,7 +492,9 @@ POIs:
     SpawnPOINear: []
     SpawnPOIAvoid: []
     SpawnResource: []
-    Properties: []
+    Properties:
+    - Key: Music
+      Value: Encryptor
   - GroupName: CrashedTalosBack
     CountMinMax: [1, 1]
     DroneProb: 0.90000000000000002
@@ -585,6 +579,10 @@ POIs:
     Pos: [-482.2, 25.2, -252.56]
     RotY: 100
     Items: [CrushedStone, CrushedStone, CrushedStone]
+  - Mode: Survival
+    Spawn: EscapePod
+    Items: ['Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, EnergyCell:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost', 'Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:4, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost', 'Pistol, 50Caliber:150, Medikit02, AntidotePills, EmergencyRations, WaterBottle, EnergyCell:3, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, AutoMinerCore:3, DurianRoot, EVABoost', '#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival']
+    Armor: ArmorMedium
 DroneSpawning:
   Random:
   - DronesMinMax: [5, 10]

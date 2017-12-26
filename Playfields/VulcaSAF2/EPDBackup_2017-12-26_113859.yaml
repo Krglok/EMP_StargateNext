@@ -87,7 +87,7 @@ DroneBaseSetup:
     DronePlanetBase: []
 POIs:
   Fixed:
-  - Type: Ex-7-Station-New
+  - Type: AsteroidFieldRing
     Prefab: Ex-7-Station-New
     Mode: Survival
     Name: Ex-7 Station

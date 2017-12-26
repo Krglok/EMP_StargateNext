@@ -659,11 +659,6 @@ POIs:
     Pos: [-482.2, 25.2, -252.56]
     RotY: 100
     Items: [CrushedStone, CrushedStone, CrushedStone]
-  - Mode: Survival
-    Spawn: Structure
-    Structure: Wreckage
-    Items: ['AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20', 'AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20', 'AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20', '#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall']
-    Armor: ArmorHeavy
 DroneSpawning:
   Random:
   - DronesMinMax: [5, 10]
