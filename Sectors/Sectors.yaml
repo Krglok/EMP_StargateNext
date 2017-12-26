@@ -404,11 +404,11 @@ Sectors:
   - - 0, 0, 0
     - Vulca Orbit
     - VulcaSAF2
-    - Humanoid:3
+    - ''
   - - 0, 0, 0
     - Vulca
     - Vulca
-    - ''
+    - 'Humanoid:3'
   - - 5161, 5000, 2761
     - Vulcaria
     - MoonPVE

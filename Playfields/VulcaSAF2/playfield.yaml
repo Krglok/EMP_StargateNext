@@ -10,7 +10,10 @@ UseRandom: True
 AllowCV: True
 Difficulty: 4
 PlayfieldType: Space
-Description: "[c][cc331d]Difficulty: Hard[-][/c]\nDu startest auf einer Raumstation. Du must die Ex-7 Station wieder unter eure Kontrolle bringen. Erkunde die Station und toete alle Aliens.  Uebernehme die Ex-7 Explorer baue die Station auf dem Planeten wieder auf. Aber bedenke dies ist erst der Anfang. Das SG-8 Team ist euch auf den Fersen.\nHier startet die Gruppe der Explorer.  \r\nErobere einen Planet, schliesse dich den System Lords und beherrsche die Galaxies.\nStart: [c][FFFFFF]Raumsation[-][/c]\"  "
+Description: >-
+  [c][cc331d]Difficulty: Hard[-][/c]
+
+  Escape Pods are not an option anymore - you need to take the Ex-7 Station back under your control by force. Make yourself familiar with that station, then wipe out the aliens. Use the ex-ship as a start station, reclaim the Ex-7 Explorer, and get revenge for your crew. But remember that this is just the beginning...
 SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
 Stars: SkyboxStarsRed
 Nebula: PrefabNebulaBlue2
@@ -87,7 +90,7 @@ DroneBaseSetup:
     DronePlanetBase: []
 POIs:
   Fixed:
-  - Type: Ex-7-Station-New
+  - Type: BA_Alien
     Prefab: Ex-7-Station-New
     Mode: Survival
     Name: Ex-7 Station
@@ -96,7 +99,7 @@ POIs:
     InitPower: True
     Properties:
     - Key: PersonalContainer
-      Value: 5.8mmBullet:500, Medikit03:5, EmergencyRations:5
+      Value: 5.8mmBullet:500, Medikit03:5
     SpawnResource: []
   - Type: SV_Player
     Prefab: Ex-7-Explorer
@@ -161,5 +164,5 @@ POIs:
   - Mode: Survival
     Spawn: Structure
     Structure: Ex7Station
-    Items: ['AssaultRifle, 5.8mmBullet:500, Medikit03:3', 'AssaultRifle, 5.8mmBullet:250, Medikit03:2', 'AssaultRifle, 5.8mmBullet:120, Medikit03']
+    Items: ['AssaultRifle, 5.8mmBullet:70', 'AssaultRifle, 5.8mmBullet:50', 'AssaultRifle, 5.8mmBullet:20']
     Armor: ArmorMedium

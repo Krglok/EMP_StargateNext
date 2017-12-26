@@ -483,18 +483,6 @@ POIs:
       Value: 1440
     - Key: MapMarker
       Value: Neutral
-  - GroupName: Artifacts
-    CountMinMax: [8, 11]
-    DroneProb: 1
-    DronesMinMax: [1, 5]
-    ReserveCount: 3
-    TroopTransport: True
-    SpawnPOINear: []
-    SpawnPOIAvoid: []
-    SpawnResource: []
-    Properties:
-    - Key: Music
-      Value: Encryptor
   - GroupName: CrashedTalosBack
     CountMinMax: [1, 1]
     DroneProb: 0.90000000000000002
@@ -535,6 +523,16 @@ POIs:
       Value: 1440
     - Key: MapMarker
       Value: Neutral
+  - GroupName: Wreckage
+    CountMinMax: [1, 1]
+    DroneProb: 0.10000000000000001
+    DronesMinMax: [1, 1]
+    ReserveCount: 1
+    SpawnPOINear: [CrashedTalosBack]
+    SpawnPOIAvoid: [DroneBaseAestus, PlanetVesselBase]
+    SpawnPOIAvoidDistance: 500
+    SpawnResource: ['IronResource:1', 'CopperResource:1', 'PromethiumResource:1', 'SiliconResource:1', 'CobaltResource:1']
+    Properties: []
   Fixed:
   - Type: BA_Player
     Prefab: BA_OutpostAkua
