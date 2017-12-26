@@ -1,0 +1,551 @@
+# SIENNA MP Created by EPD v1.35.8.0, Playfield Version: 7.2.0 [1276] (Alpha Experimental 7.2.0)
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -7.0999999999999996
+AtmosphereDensity: 2
+AtmosphereO2: 0.20000000000000001
+AtmosphereBreathable: False
+Temperature: -10
+TemperatureDay: -5
+TemperatureNight: -60
+Music: Eden
+DayLength: 24
+PlanetType: Snow
+Water: WaterGreen
+SeaLevel: 32
+PvP: True
+UseRandom: True
+AllowCV: False
+Difficulty: 5
+PlayfieldType: Planet
+Description: "Difficulty:[c][FFFFFF] Hard[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
+
+
+  Sienna is a cold snow planet with all needed resources and living conditions needed. However you have to build a shelter quickly to be prepared for the cold nights.
+
+
+  Start: [c][FFFFFF]Escape Pod[-][/c]"
+SunFlare: EnvironmentalEffects/SunFlareWhite
+SpecialEffectsLocal:
+  - Name: FireFliesOrange
+    Biome: [ ArcticForest, ArcticHighForest ]
+    Time: Night
+    MaxHeight: 80
+SpecialEffectsGlobal:
+- Name: ThunderAndLightning
+  Biome: [ Any ]
+  Time: Day
+  InitialDelay: 0.5   
+  Delay: 8
+  Lifetime: 300			
+  PlyDist: 100
+  SpawnY: 500
+  Struct: Avoid
+- Name: SnowLight
+  Type: Weather
+  InitialDelay: 24
+  Delay: 5
+  Lifetime: 600
+- Name: Clear
+  Type: Weather
+  Delay: 6
+  Lifetime: 60
+- Name: SnowHeavy
+  Type: Weather
+  InitialDelay: 11
+  Delay: 30
+  Lifetime: 700
+- Name: Storm
+  Type: Weather
+  InitialDelay: 33
+  Delay: 55
+  Lifetime: 200
+- Name: ColdWave
+  Type: Weather
+  InitialDelay: 33
+  Delay: 51
+  Lifetime: 277
+AtmosphereColor: 0.19, 0.26, 0.35
+SkyColor: 0.5, 0.5, 1
+DayLightIntensity: 1.3999999999999999
+NightLightIntensity: 0.10000000000000001
+DayShadowStrength: 0.94999999999999996
+AtmosphereFog: 0.10000000000000001
+FogIntensity: 0.10000000000000001
+FogStartDistance: 400
+CloudsDensity: 0.10000000000000001
+CloudsSharpness: 0.10000000000000001
+CloudsBrightness: 0.69999999999999996
+CloudsOpacity: 0.94999999999999996
+WindSpeed: 10
+### Resource Deposits
+RandomResources:
+    - Name: CopperResource
+      CountMinMax: [ 3, 4 ]   
+      SizeMinMax: [ 4, 6 ]  
+      DepthMinMax: [ 0, 5 ] 
+      DroneProb: 0.5
+      MaxDroneCount: 1
+      DistTypeWorm:
+        FreqDirChange: 0.5  
+        DirChangeMagnitude: 0.2 
+        MaxLength: 50
+        DeepnessType: 2 
+
+    - Name: IronResource
+      CountMinMax: [ 3, 4 ]
+      SizeMinMax: [ 4, 6 ]
+      DepthMinMax: [ 0, 5 ] 
+      DroneProb: 1
+      MaxDroneCount: 3
+      DistTypeCylinder:
+        MaxRadius: 10
+        YVariance: 13
+
+    - Name: SiliconResource
+      CountMinMax: [ 3, 4 ]
+      SizeMinMax: [ 4, 6 ]
+      DepthMinMax: [ 0, 5 ]
+      DroneProb: 0.8
+      DistTypeCylinder:
+        MaxRadius: 15
+        YVariance: 10
+
+    - Name: PromethiumResource
+      CountMinMax: [ 4, 6 ]
+      SizeMinMax: [ 5, 6 ]
+      DepthMinMax: [ 0, 5 ] 
+      DroneProb: 1
+      MaxDroneCount: 3
+      DistTypeCylinder:
+        MaxRadius: 10
+        YVariance: 15
+
+    - Name: PentaxidResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 3, 4 ]
+      DepthMinMax: [ 0, 5 ] 
+      DroneProb: 0.6
+      MaxDroneCount: 2
+      DistTypeCylinder:
+        MaxRadius: 10
+        YVariance: 15
+        
+
+### Resource Asteroids
+AsteroidResources:
+     - Name: IronResource
+       Threshold: 0.6
+       Amount: 0.4
+
+     - Name: CopperResource
+       Threshold: 0.6
+       Amount: 0.4
+
+     - Name: SiliconResource
+       Threshold: 0.6
+       Amount: 0.4
+
+     - Name: PromethiumResource
+       Threshold: 0.6
+       Amount: 0.4
+
+     - Name: PentaxidResource
+       Threshold: 0.6
+       Amount: 0.4
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+Terrain:
+    Name: Snow
+    PoleLevel: 37                       # Pole level of planet
+    NoiseStrength: 0.3
+    ColorChange:
+        YFadeCenter: 80
+        YFadeRange: 40
+        YFadeMin: -0.15
+        YFadeMax: 0.2
+
+MainBiome:
+    Textures:
+        - [ SnowRock04, 1 ]
+        - [ Snow08, 5 ]
+        - [ Cliff, 0 ]
+        - [ BedrockLava, 2 ]
+
+    # Decorations:
+        # - [ RockA01Snow, 0.1 ]  
+        # - [ RockB01Snow, 0.1 ]
+        # - [ Rocks02Snow, 0.1 ]    
+
+SubBiomes:
+    - Altitude: 31
+      Textures:
+        - [ Stone, 29 ]
+      # Decorations:
+        # - [ RocksmallA02, 0.2 ]
+
+    - Altitude: 34
+      Textures:
+        - [ Cliff, 32 ]
+        - [ SnowyGrass, 1 ]
+      # Decorations:
+        # - [ RocksmallA02, 0.2 ]
+
+# Biome Definition and Main Decoration
+Biome:
+# Lower Plains - aka Hot Springs
+   - Altitude: [ 35, 60 ]
+     Slope: [ 0, 5 ]
+     BiomeClusterData:
+         - Name: "ArcticForest"    
+           Id: 1
+           ClusterSize: 200
+           NbOfClusters: 10	   
+           Temperature: 10
+           Decorations: 
+               - [ "BlueSpruceWinter", 8]                
+               - [ "AlaskaCedarBare", 2] 
+               - [ "BushWinter03", 1] 
+               - [ "PixieStalksSnow", 1] 
+               - [ "Mushroom2", 1] 
+               - [ "CattailWinter", 0.8]
+               - [ "RealRock2Snow", 0.1] 
+               - [ "RealRock3Snow", 0.1] 
+               - [ "RealRock6Snow", 0.1]
+               - [ "BulbShroom", 0.5]
+               - [ "PromethiumStone", 0.1]
+           Grass:
+               - Name: "GrassGreen04aSnow"
+                 Density: 1500
+                 YScale: 0.8
+                 Preset: "GrassDense6"    
+               - Name: "GrassGreen03bSnow"
+                 Density: 600
+                 YScale: 1.2
+                 Preset: "GrassPatches6" 
+         - Name: "ArcticLowPlains"     
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0  
+           Temperature: 10
+           Decorations: 
+               - [ "BushWinter01", 0.5] 
+               - [ "PixieStalksSnow", 0.2]
+               - [ "DimpleDomeSnow", 0.2] 
+               - [ "BrainFungusSnow", 0.2] 
+               - [ "CornDogBushSnow", 0.3]
+           Grass:
+               - Name: "GrassGreen03bSnow"
+                 Density: 400
+                 YScale: 1.2
+                 Preset: "GrassPatches7"    
+   - Altitude: [ 35, 60 ]
+     Slope: [ 0, 10 ]
+     BiomeClusterData:
+         - Name: "ArcticLowPlains"     
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0  
+           Temperature: 10
+           Decorations: 
+               - [ "BlueSpruceWinter", 0.25] 
+               - [ "AlaskaCedarBare", 0.25] 
+               - [ "RealRock8Snow", 0.15] 
+               - [ "RealRock6Snow", 0.15] 
+               - [ "RealRock10Snow", 0.15] 
+               - [ "BushWinter01", 0.2] 
+               - [ "BushWinter02", 0.2] 
+               - [ "BushWinter03", 0.1] 
+               - [ "CornDogBushSnow", 0.2]
+   - Altitude: [ 0, 60 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticLowPlains"    
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0  
+           Temperature: 10
+           Decorations: 
+               - [ "RealRock1", 0]
+# Intermediate Plains
+   - Altitude: [ 60, 75 ]
+     Slope: [ 0, 15 ]
+     BiomeClusterData:
+         - Name: "ArcticHighForest"
+           Id: 3
+           ClusterSize: 70
+           NbOfClusters: 4
+           Decorations: 
+               - [ "BlueSpruceWinter", 8]               
+               - [ "AlaskaCedarBare", 2] 
+               - [ "RealRock8Snow", 0.1] 
+               - [ "RealRock6Snow", 0.1] 
+               - [ "BushWinter03", 0.3]  
+               - [ "Mushroom2", 0.5] 
+               # - [ "CornDogBushSnow", 0.4]
+           Grass:
+               - Name: "GrassGreen04aSnow"
+                 Density: 1200
+                 YScale: 0.8
+                 Preset: "GrassDense6" 
+         - Name: "ArcticIntermediatePlains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "BulbShroom", 0.2]
+               - [ "BlueSpruceWinter", 0.05] 
+               - [ "AlaskaCedarBare", 0.1] 
+               - [ "RealRock8Snow", 0.02] 
+               - [ "RealRock6Snow", 0.02] 
+               - [ "RealRock10Snow", 0.02] 
+               - [ "BrainFungusSnow", 0.05] 
+               - [ "DimpleDomeSnow", 0.05] 
+               - [ "BushWinter01", 0.05] 
+               - [ "BushWinter02", 0.05] 
+               - [ "BushWinter03", 0.05] 
+               - [ "AlienPlantThorn2", 0.3]
+               # - [ "CornDogBushSnow", 0.05]
+           Grass:
+               - Name: "GrassGreen06Snow"
+                 Density: 1500
+                 YScale: 1
+                 Preset: "GrassPatches8"
+   - Altitude: [ 60, 75 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticIntermediatePlains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "RealRock1", 0]
+# High Plains
+   - Altitude: [ 75, 125 ]
+     Slope: [ 0, 20 ]
+     BiomeClusterData:
+         - Name: "ArcticHighPlains"
+           Id: 5
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "BlueSpruceWinter", 0.01]                
+               - [ "AlaskaCedarBare", 0.04] 
+               - [ "BushWinter01", 0.02] 
+               - [ "BushWinter02", 0.02] 
+               - [ "BushWinter03", 0.02]
+               - [ "AlienPlantThorn2", 0.2] 
+   - Altitude: [ 75, 125 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticHighPlains"
+           Id: 5
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "RealRock1", 0]
+# Mountains
+   - Altitude: [ 125, 250 ]
+     Slope: [ 0, 25 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 6
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "CrystalsPyramidBlue", 0.15]
+               - [ "PromethiumStone", 0.07]
+   - Altitude: [ 125, 250 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 6
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ "RealRock1", 0]
+
+DroneBaseSetup:
+  Random:
+  - GroupName: DroneBaseSetup
+    DronesMinMax: [3, 5]
+    ReserveCount: 5
+    DroneProb: 1
+    Difficulty: 6
+    PresetStyle: 3
+    Stock:
+    - Name: DroneSmallFast01Rocket
+      Amount: Infinite
+    - Name: DroneSmallFast01Plasma
+      Amount: Infinite
+    - Name: EnemyDroneV2Minigun
+      Amount: Infinite
+    - Name: DroneLargeAttackBase
+      Amount: Infinite
+      Extra: 1
+    - Name: EnemyDroneV2Plasma
+      Amount: Infinite
+      Extra: 1
+    - Name: DroneTroopsTransport01
+      Amount: Infinite
+      Extra: 2
+    - Name: ZiraxMale
+      Amount: Infinite
+      Extra: 3
+    - Name: AlienAssassinGrey
+      Amount: Infinite
+      Extra: 3
+    PlanetVesselBase:
+      Name: PlanetVesselBaseSetup
+      Position3D: [0, 102, 0]
+      BaseType: PlanetVesselBase
+      PlanetVessel:
+        - Name: Patrol-S-Hard
+          Mission: PlanetPatrol
+          FixedMaxSpeed: 10
+          RangePatrolCenter: [ -1000, 0 ]
+          RangePatrolRadius: 800
+          RangePatrolAltitude: 80
+          RespawnDelay: 12
+          InitialDelay: 48
+  Fixed: []
+POIs:
+  Random:
+  - GroupName: DroneBaseNingues
+    DroneBaseSetup: DroneBaseSetup
+    CountMinMax: [1, 1]
+    DroneProb: 1
+    DronesMinMax: [4, 5]
+    ReserveCount: 6
+    TroopTransport: True
+    InitPower: True
+    SpawnPOINear: []
+    SpawnPOIAvoid: []
+    SpawnResource: []
+    ResourceDistance: 400
+    Properties:
+    - Key: Music
+      Value: barren
+  - GroupName: XenuTierI
+    CountMinMax: [2, 3]
+    DroneProb: 1
+    DronesMinMax: [3, 7]
+    ReserveCount: 1
+    InitPower: True
+    SpawnPOINear: []
+    SpawnPOIAvoid: []
+    SpawnPOIAvoidDistance: 1000
+    SpawnResource: []
+    Properties:
+    - Key: Music
+      Value: Eden
+    - Key: RegenAfter       
+      Value: 720
+  - GroupName: AbandonedMine
+    CountMinMax: [1, 1]
+    DroneProb: 0.10000000000000001
+    DronesMinMax: [1, 1]
+    ReserveCount: 1
+    SpawnPOINear: []
+    SpawnPOIAvoid: []
+    SpawnResource: []
+    Properties:
+    - Key: RegenAfter
+      Value: 720
+  - GroupName: RadosRefinery
+    CountMinMax: [3, 4]
+    DroneProb: 1
+    DronesMinMax: [2, 3]
+    ReserveCount: 1
+    InitPower: True
+    SpawnPOINear: []
+    SpawnPOIAvoid: [TS_Oscutune]
+    SpawnPOIAvoidDistance: 500
+    SpawnResource: []
+    Properties: []
+  Fixed: []
+  FixedPlayerStart:
+      - Mode: Survival
+        Spawn: EscapePod
+        Armor: ArmorLight
+        Items: [ "Pistol, 50Caliber:200, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:3, OxygenBottleSmall:5, EnergyCell:5, Drill, Chainsaw, BioFuel:5, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, RadiationPills, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills", "Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, OxygenBottleSmall:5, EnergyCell:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:4, Core", "Pistol, 50Caliber:150, Medikit02:1, AntidotePills:1, EmergencyRations:1, WaterBottle:1, OxygenBottleSmall:5, EnergyCell:3, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:3, Core", "#FreshStart: Drill, Chainsaw, OxygenBottleSmall:5, BioFuel:5, ConstructorSurvival, OxygenGeneratorSmall" ]
+DroneSpawning:
+  Random:
+  - DronesMinMax: [5, 10]
+    CenterX: -2500
+  - DronesMinMax: [5, 10]
+    CenterX: 2500
+
+### Creatures
+CreatureSpawning:
+    - Biome: ArcticLowPlains
+      Entities:
+        - Name: ParasaurHerd
+          Period: Day              #  Night / Day / Always
+          Amount: 1
+          Delay: 0
+        - Name: SlimeWhite
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: CaveWormsWhite
+          Period: Night
+          Amount: 1
+          Delay: 0
+
+    - Biome: ArcticForest
+      Entities:
+        - Name: CaveWormsWhite
+          Period: Always
+          Amount: 1
+          Delay: 0
+        - Name: Spiders01
+          Period: Night
+          Amount: 2
+          Delay: 0
+
+    - Biome: ArcticIntermediatePlains
+      Entities:
+        - Name: GolemsIce
+          Period: Day
+          Amount: 1
+          Delay: 0
+        - Name: Oviraptors
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: CaveWormsWhite
+          Period: Night
+          Amount: 1
+          Delay: 0
+        - Name: LizardMuleHerd
+          Period: Day
+          Amount: 2
+          Delay: 0
+
+    - Biome: ArcticHighPlains
+      Entities:
+        - Name: GolemsIce
+          Period: Day
+          Amount: 1
+          Delay: 0
+        - Name: Oviraptors
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: CaveWormsWhite
+          Period: Night
+          Amount: 1
+          Delay: 0
+
+    - Biome: ArcticHighForest
+      Entities:
+        - Name: GolemsIce
+          Period: Night
+          Amount: 1
+          Delay: 0
+        - Name: Spiders03
+          Period: Always
+          Amount: 1
+          Delay: 0
