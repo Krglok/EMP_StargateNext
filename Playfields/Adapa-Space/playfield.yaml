@@ -3,7 +3,7 @@ TemperatureDay: -130
 Music: ''
 Radiation: 3.2829128848112124
 PlanetType: Space
-PvP: False
+PvP: True
 UseFixed: True
 UseRandom: True
 AllowCV: True

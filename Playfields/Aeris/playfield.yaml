@@ -579,7 +579,7 @@ POIs:
     Items: [CrushedStone, CrushedStone, CrushedStone]
   - Mode: Survival
     Spawn: EscapePod
-    Items: ['Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, EnergyCell:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost', 'Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:4, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost', 'Pistol, 50Caliber:150, Medikit02, AntidotePills, EmergencyRations, WaterBottle, EnergyCell:3, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, AutoMinerCore:3, DurianRoot, EVABoost', '#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival']
+    Items: ['OreScanner, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, EnergyCell:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, OreScanner', 'Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:4, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, OreScanner', 'Pistol, 50Caliber:150, Medikit02, AntidotePills, EmergencyRations, WaterBottle, EnergyCell:3, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, AutoMinerCore:3, DurianRoot, EVABoost', '#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival']
     Armor: ArmorMedium
 DroneSpawning:
   Random:

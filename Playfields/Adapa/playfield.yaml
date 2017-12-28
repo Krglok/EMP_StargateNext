@@ -15,7 +15,7 @@ PlanetType: Temperate
 Moons: 1
 Water: WaterGreen
 SeaLevel: 24
-PvP: False
+PvP: True
 UseRandom: True
 AllowCV: True
 Difficulty: 5

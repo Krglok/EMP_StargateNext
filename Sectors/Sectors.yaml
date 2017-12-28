@@ -382,7 +382,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Aeris 2 Orbit
-    - SpacePVE
+    - SpacePVP
     - ''
   - - 0, 0, 0
     - Aeris 2
@@ -425,7 +425,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Andromida Orbit
-    - SpacePVE
+    - SpacePVP
     - ''
   - - 0, 0, 0
     - Andromida
@@ -450,7 +450,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Mios 2 Orbit
-    - SpacePVE
+    - SpacePVP
     - ''
   - - 0, 0, 0
     - Mios 2
@@ -569,7 +569,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Aeris Orbit
-    - SpaceAsteroids
+    - SpacePVE
     - ''
   - - 0, 0, 0
     - Aeris
@@ -593,7 +593,7 @@ Sectors:
     - Dalos
     - ''
   - - -4084, 5000, 4752
-    - Placeholder4
+    - Dalos Moon
     - Moon
     - ''
   Allow: []
@@ -749,7 +749,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Lunaris Orbit
-    - SpaceAsteroidFieldRing
+    - SpaceAsteroidFieldRingAestus
     - ''
   - - 0, 0, 0
     - Lunaris
@@ -791,7 +791,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Twin Niles
-    - SpaceAsteroidField
+    - SpaceAsteroidFieldAestus
     - ''
   - - 3919, 0, 2671
     - Nile Ovos

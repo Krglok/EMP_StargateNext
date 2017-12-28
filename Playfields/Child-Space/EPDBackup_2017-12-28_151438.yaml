@@ -1,0 +1,348 @@
+Gravity: 0
+AtmosphereEnabled: False
+PvP: False
+UseFixed: True
+Radiation: 4.076276590351512
+TemperatureDay: -130
+Difficulty: 5
+PlayfieldType: Space
+PlanetType: Space
+SunFlare: EnvironmentalEffects/SunFlareWhite3Space
+Stars: SkyboxStarsBlack
+Nebula: PrefabNebulaRed
+POIs:
+  Fixed:
+    - Type: BA_Alien
+      Prefab: BAO_Thermica-Station
+      Mode: Survival
+      Name: Thermica Station
+      Pos:
+        - -2800
+        - 500
+        - -2800
+      Rot:
+        - 0
+        - -50
+        - 0
+      InitPower: True
+    - Type: BA_Alien
+      Prefab: BAO_OrbitalSpire
+      Mode: Survival
+      Name: Alien Base
+      Pos:
+        - 3000
+        - 0
+        - 500
+      Rot:
+        - 0
+        - 75
+        - 0
+      InitPower: True
+    - Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos:
+        - 3000
+        - 100
+        - 700
+      Rot:
+        - 0
+        - 75
+        - 0
+      InitPower: True
+    - Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos:
+        - 3000
+        - 200
+        - 300
+      Rot:
+        - 0
+        - 75
+        - 0
+      InitPower: True
+    - Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos:
+        - 3200
+        - 200
+        - 300
+      Rot:
+        - 0
+        - 75
+        - 0
+      InitPower: True
+    - Type: BA_Alien
+      Prefab: BAO_XenuSupplyStation
+      Mode: Survival
+      Name: Supply Station
+      Pos:
+        - -2000
+        - 0
+        - 2000
+      Rot:
+        - 0
+        - 75
+        - 0
+      InitPower: True
+    - Type: BA_Admin
+      Prefab: TSO_AkuaOrbit
+      Mode: Survival
+      Name: Trading Station Akua
+      Pos:
+        - -4400
+        - 2000
+        - -250
+      Rot:
+        - 0
+        - -50
+        - 0
+      InitPower: True
+    - Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos:
+        - -6302
+        - 73
+        - -2486
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel02Neodymium
+      Prefab: AsteroidVoxel02Neodymium
+      Name: Neodymium Asteroid
+      Pos:
+        - -6038
+        - -225
+        - 2595
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos:
+        - 4270
+        - -1
+        - 2671
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos:
+        - 318
+        - 51
+        - 6607
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos:
+        - -3718
+        - -11
+        - 4086
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos:
+        - 3000
+        - 400
+        - 300
+      Rot:
+        - 20
+        - 0
+        - 0
+    - Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos:
+        - 2500
+        - 300
+        - 400
+      Rot:
+        - 0
+        - 20
+        - 0
+    - Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos:
+        - 3300
+        - 500
+        - 400
+      Rot:
+        - 0
+        - 0
+        - 20
+    - Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos:
+        - 3000
+        - -500
+        - 400
+      Rot:
+        - 30
+        - 0
+        - 0
+    - Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos:
+        - 3000
+        - -300
+        - -500
+      Rot:
+        - 0
+        - 30
+        - 0
+    - Type: AsteroidVoxel03Zascosium
+      Prefab: AsteroidVoxel03Zascosium
+      Name: Zascosium Asteroid
+      Pos:
+        - -3650
+        - -104
+        - 2872
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos:
+        - 3650
+        - -104
+        - 2572
+      Rot:
+        - 0
+        - 0
+        - 0
+    - Type: AsteroidFieldRing
+      Name: Asteroid Field
+      Pos:
+        - 0
+        - 0
+        - 0
+      Rot:
+        - 0
+        - 0
+        - 0
+  FixedPlayerStart:
+    - Mode: Debug
+      Pos:
+        - -5000
+        - 0
+        - 5000
+      RotY: 0
+DroneBaseSetup:
+  Fixed:
+    - Name: MainDroneBase
+      Pos:
+        - 5000
+        - 200
+        - 5000
+      DroneOnDuty:
+        - Name: SpaceDronePlasma
+          Pos:
+            - 4000
+            - 200
+            - 4000
+          Radius: 350
+        - Name: SpaceDronePlasma
+          Pos:
+            - -4000
+            - -200
+            - 4000
+          Radius: 350
+        - Name: SpaceDronePlasma
+          Pos:
+            - 4000
+            - 200
+            - -4000
+          Radius: 350
+        - Name: SpaceDronePlasma
+          Pos:
+            - -4000
+            - -200
+            - -4000
+          Radius: 350
+      SpaceVessel:
+        - Name: Freighter
+          FixedMaxSpeed: 20
+          Mission: Freighter
+          Freighter:
+            DelayBetweenRespawn: 600
+            PathWayPoint:
+              - - 5000
+                - 1500
+                - 8000
+              - - 5000
+                - 1500
+                - -2000
+              - - -5000
+                - 1500
+                - -8000
+          Stock:
+            - Name: SpaceDronePlasma
+              Amount: 5
+              Extra: 0
+        - Name: Freighter
+          FixedMaxSpeed: 20
+          Mission: Freighter
+          Freighter:
+            DelayBetweenRespawn: 1000
+            PathWayPoint:
+              - - -3000
+                - 1800
+                - 8000
+              - - -2500
+                - 1800
+                - -8000
+          Stock:
+            - Name: SpaceDronePlasma
+              Amount: 5
+              Extra: 0
+        - Name: Carrier
+          FixedMaxSpeed: 20
+          Mission: SpacePatrol
+          RangePatrol:
+            Position3D:
+              - -3000
+              - 1500
+              - 3000
+            Radius: 500
+            DistToGround: 0
+          Stock:
+            - Name: SpaceDronePlasma
+              Amount: 5
+              Extra: 0
+        - Name: BAO_GhostRiderShipyard
+          FixedMaxSpeed: 20
+          Mission: Immobile
+          Immobile:
+            Position3D:
+              - -4300
+              - -80
+              - 5115
+          Stock:
+            - Name: SpaceDronePlasma
+              Amount: 5
+              Extra: 0
