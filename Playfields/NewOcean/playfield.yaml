@@ -119,81 +119,58 @@ RandomResources:
   DepthMinMax: [4, 8]
   DroneProb: 0.20000000000000001
   MaxDroneCount: 1
-  DistTypeCylinder:
-    MaxRadius: 10
-    YVariance: 12
 - Name: PromethiumResource
   CountMinMax: [1, 3]
   SizeMinMax: [5, 6]
   DepthMinMax: [4, 8]
   DroneProb: 0.40000000000000002
-  DistTypeCylinder:
-    MaxRadius: 8
-    YVariance: 15
 - Name: CobaltResource
   CountMinMax: [1, 3]
   SizeMinMax: [7, 8]
   DepthMinMax: [4, 9]
   DroneProb: 0.20000000000000001
-  DistTypeCylinder:
-    MaxRadius: 15
-    YVariance: 8
 - Name: ErestrumResource
   CountMinMax: [6, 8]
   SizeMinMax: [8, 10]
   DepthMinMax: [5, 10]
   DroneProb: 0.29999999999999999
   MaxDroneCount: 5
-  DistTypeCylinder:
-    MaxRadius: 15
-    YVariance: 10
 - Name: ZascosiumResource
   CountMinMax: [3, 5]
   SizeMinMax: [7, 11]
   DepthMinMax: [5, 15]
   DroneProb: 0.29999999999999999
   MaxDroneCount: 5
-  DistTypeWorm:
-    FreqDirChange: 0.5
-    DirChangeMagnitude: 0.29999999999999999
-    MaxLength: 50
-    DeepnessType: 1
 - Name: CopperResource
   CountMinMax: [10, 12]
   SizeMinMax: [4, 30]
   DepthMinMax: [0, 1]
   DroneProb: 0.10000000000000001
   MaxDroneCount: 1
-  DistTypeWorm:
-    MaxLength: 10
-    DeepnessType: 0
 - Name: SiliconResource
   CountMinMax: [10, 12]
   SizeMinMax: [4, 30]
   DepthMinMax: [0, 1]
   DroneProb: 0.10000000000000001
   MaxDroneCount: 1
-  DistTypeWorm:
-    MaxLength: 10
-    DeepnessType: 0
 FixedResources: []
 AsteroidResources:
-- Name: ErestrumResource
-  Threshold: 0.20000000000000001
-  Amount: 0.20000000000000001
-- Name: ZascosiumResource
-  Threshold: 0.20000000000000001
-  Amount: 0.20000000000000001
 - Name: IronResource
-  Threshold: 0.20000000000000001
-  Amount: 1
-- Name: CopperResource
   Threshold: 0.20000000000000001
   Amount: 1
 - Name: PromethiumResource
   Threshold: 0.20000000000000001
   Amount: 1
 - Name: CobaltResource
+  Threshold: 0.20000000000000001
+  Amount: 1
+- Name: ErestrumResource
+  Threshold: 0.20000000000000001
+  Amount: 0.20000000000000001
+- Name: ZascosiumResource
+  Threshold: 0.20000000000000001
+  Amount: 0.20000000000000001
+- Name: CopperResource
   Threshold: 0.20000000000000001
   Amount: 1
 - Name: SiliconResource
