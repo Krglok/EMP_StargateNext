@@ -14,7 +14,7 @@ DayLength: 24
 PlanetType: Temperate
 Moons: 1
 Water: WaterBlue
-SeaLevel: 150
+SeaLevel: 120
 PvP: True
 UseRandom: True
 AllowCV: True
@@ -158,6 +158,24 @@ RandomResources:
     DirChangeMagnitude: 0.29999999999999999
     MaxLength: 50
     DeepnessType: 1
+- Name: CopperResource
+  CountMinMax: [10, 12]
+  SizeMinMax: [4, 30]
+  DepthMinMax: [0, 1]
+  DroneProb: 0.10000000000000001
+  MaxDroneCount: 1
+  DistTypeWorm:
+    MaxLength: 10
+    DeepnessType: 0
+- Name: SiliconResource
+  CountMinMax: [10, 12]
+  SizeMinMax: [4, 30]
+  DepthMinMax: [0, 1]
+  DroneProb: 0.10000000000000001
+  MaxDroneCount: 1
+  DistTypeWorm:
+    MaxLength: 10
+    DeepnessType: 0
 FixedResources: []
 AsteroidResources:
 - Name: ErestrumResource
@@ -421,50 +439,7 @@ Biome:
     - [BushGreen01, 0]
     Grass: []
 DroneBaseSetup:
-  Random:
-  - GroupName: DroneBaseSetup
-    DronesMinMax: [2, 3]
-    ReserveCount: 3
-    DroneProb: 1
-    Difficulty: 5
-    PresetStyle: 3
-    Stock:
-    - Name: DroneSmallFast01Plasma
-      Amount: 200
-    - Name: DroneLargeSlow01Plasma
-      Amount: 200
-    - Name: EnemyDroneV2Minigun
-      Amount: 300
-    - Name: DroneLargeAttackBase
-      Amount: Infinite
-      Extra: 1
-    - Name: EnemyDroneV2Minigun
-      Amount: Infinite
-      Extra: 1
-    - Name: DroneTroopsTransport01
-      Amount: Infinite
-      Extra: 2
-    - Name: ZiraxMale
-      Amount: 500
-      Extra: 3
-    - Name: AlienAssassinGrey
-      Amount: 250
-      Extra: 3
-    - Name: Overseer
-      Amount: 250
-      Extra: 3
-    PlanetVesselBase:
-      Name: PlanetVesselBaseSetup
-      Position3D: [0, 102, 0]
-      BaseType: PlanetVesselBase
-      PlanetVessel:
-      - Name: Patrol-M-Medium
-        Mission: PlanetPatrol
-        FixedMaxSpeed: 5
-        RangePatrolCenter: [1500, 0]
-        RangePatrolRadius: 800
-        RangePatrolAltitude: 80
-        RespawnDelay: 12
+  Random: []
   Fixed: []
 POIs:
   Random:
@@ -477,18 +452,6 @@ POIs:
     Properties:
     - Key: Music
       Value: DarkSoundscape
-  - GroupName: DroneBaseAkua
-    DroneBaseSetup: DroneBaseSetup
-    CountMinMax: [1, 1]
-    DroneProb: 1
-    DronesMinMax: [4, 6]
-    ReserveCount: 99
-    SpawnPOINear: []
-    SpawnPOIAvoid: []
-    SpawnResource: ['ErestrumResource:2-4', 'ZascosiumResource:1-3']
-    Properties:
-    - Key: Music
-      Value: lava2
   - GroupName: PlanetVesselBase
     PlanetVesselBaseSetup: PlanetVesselBaseSetup
     CountMinMax: [1, 1]
@@ -545,28 +508,6 @@ POIs:
     Properties:
     - Key: MapMarker
       Value: Neutral
-  - GroupName: EpsilonDroneFactory
-    CountMinMax: [1, 2]
-    DroneProb: 1
-    DronesMinMax: [2, 2]
-    ReserveCount: 5
-    TroopTransport: True
-    SpawnPOINear: []
-    SpawnPOIAvoid: [TS_Oscutune]
-    POIDistance: 1000
-    SpawnResource: []
-    Properties: []
-  - GroupName: EpsilonTierII
-    CountMinMax: [5, 8]
-    DroneProb: 1
-    DronesMinMax: [1, 2]
-    ReserveCount: 3
-    TroopTransport: True
-    SpawnPOINear: []
-    SpawnPOIAvoid: [TS_Oscutune]
-    POIDistance: 1000
-    SpawnResource: []
-    Properties: []
   Fixed: []
   FixedPlayerStart:
   - Mode: Debug
@@ -574,11 +515,7 @@ POIs:
     RotY: 125
     Items: [CrushedStone, CrushedStone, CrushedStone]
 DroneSpawning:
-  Random:
-  - DronesMinMax: [5, 10]
-    CenterX: -2500
-  - DronesMinMax: [5, 10]
-    CenterX: 2500
+  Random: []
 CreatureSpawning:
 - Biome: Ocean
   Entities:
