@@ -20,7 +20,7 @@ UseRandom: True
 AllowCV: True
 Difficulty: 4
 PlayfieldType: Planet
-Description: Oscutune is a temperate planet with vast oceans and volcanic islands. It has a breathable atmosphere
+Description: Limayos is a temperate planet with vast oceans and volcanic islands. It has a breathable atmosphere
 SunFlare: EnvironmentalEffects/SunFlareWhite
 SpecialEffectsLocal:
 - Name: DandelionsFew

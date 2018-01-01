@@ -51,9 +51,7 @@ Sectors:
     - NewMoon2
     - ''
   Allow: []
-  Deny:
-  - Oscutune Orbit
-  - Aitis Orbit
+  Deny: []
 - Coordinates:
   - 155
   - 0
@@ -213,7 +211,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Oscutune
-    - NewOcean
+    - Oscutune
     - ''
   Allow: []
   Deny:
@@ -255,8 +253,8 @@ Sectors:
     - Roggery
     - Desert3
     - ''
-  Allow:
-  - Skillon
+  Allow: []
+#  - Skillon
   Deny:
   - Zeyhines Orbit
 - Coordinates:
@@ -272,7 +270,7 @@ Sectors:
     - ''
   Allow:
   - Asteroid Cluster
-  - Child
+#  - Child
   Deny: []
 - Coordinates:
   - 6
@@ -348,8 +346,8 @@ Sectors:
     - Skillon
     - NewBarren
     - ''
-  Allow:
-  - Roggery
+  Allow: []
+#  - Roggery
   Deny:
   - Ningues Orbit
 - Coordinates:
@@ -413,8 +411,8 @@ Sectors:
     - Vulcaria
     - MoonPVE
     - ''
-  Allow:
-  - Roggery
+  Allow: []
+#  - Roggery
   Deny: []
 - Coordinates:
   - -497
@@ -791,15 +789,15 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Twin Niles
-    - SpaceAsteroidFieldAestus
+    - SpaceAsteroidField
     - ''
   - - 3919, 0, 2671
     - Nile Ovos
-    - MoonLush
+    - Moon
     - ''
   - - -4498, 5000, -587
     - Nile Alphine
-    - MoonLush2
+    - Moon
     - ''
   Allow: []
   Deny: []
