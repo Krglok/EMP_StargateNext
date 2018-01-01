@@ -18,7 +18,7 @@ Music: Eden
 Radiation: 2.3
 DayLength: 24                     
 PlanetType: Temperate             
-Moons: 0
+Moons: 1                          
 Water: WaterBlue                  
 PvP: True                         
 #Seed: 123456                     
@@ -29,7 +29,7 @@ Difficulty: 3
 
 # Planet or Space
 PlayfieldType: Planet               
-Description: "Limayos is a temperate planet with vast oceans and volcanic islands. It has a breathable atmosphere"       
+Description: "Oscutune is a temperate planet with vast oceans and volcanic islands. It has a breathable atmosphere"       
 
 # Sun                             
 SunFlare: EnvironmentalEffects/SunFlareWhite
