@@ -1,0 +1,107 @@
+Creator: Eleon Game Studios
+Chapters:           
+#-------------------------------------------------
+# KNOWLEDGE BASE
+# Category: FAQ
+#
+  - ChapterTitle: chptitleKnowledgebase      
+    Category: FAQ
+    Description: chpdescKnowledgebase
+    PictureFile: Chapter4.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: tasktitleGGM
+        PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleBasics
+            Description: actdescBasics
+
+          - ActionTitle: acttitleTechtree
+            Description: actdescTechtree
+
+          - ActionTitle: acttitleOP
+            Description: actdescOP
+
+          - ActionTitle: acttitleLook
+            Description: actdescLook
+
+          - ActionTitle: acttitlePvPvE
+            Description: actdescPvPvE
+
+
+#--------------------------------------------------
+#  StargateIntro INTRO
+#  Category: SoloMission
+  - ChapterTitle: "Stargate Intro"
+    Category: SoloMission 
+    Description: "Das Szenario ist im Stargate Universum angesiedelt. Die Goa Uld wurden besiegt. Die Galaxis ist von dieser Geisel befreit. 
+  Aber die Stargates sind ploetzlich ausgefallen. Viele laufende Missionen und SG-Teams sind ploetzlich gestrandet. Ohne die die Moeglichkeit wieder zturueckzukommen.
+    Es sei denn man findet die Technologie um eigene Raumschiffe zu bauen, die Sprungtriebwerke haben. Oder ihr wartet einfach bis die Stargates wieder funktionieren.
+    Es gibt 3 Hauptfraktionen 
+    
+    HUMAN sind die Vertreter der SG-Teams.
+    
+    HUMANOID sind Menschen die nicht zu den SG-Teams gehoeren.     
+    
+    EXPLOERER sind Menschen, die Vertreter der Trust-Teams.
+    
+    Die Mitglieder der Gruppen koennen nur Fractionen ihrer eigenben Gruppe beitreten. Zum wechseln muss man neu starten.
+    "
+    PictureFile: stargate.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    RewardedChapters: [ chptitleStargateIntro ]
+    ActivateChapterOnCompletion: chptitleStargateIntro
+    Rewards:
+      - Item: GoldCoins
+        Count: 10
+    Tasks:
+      - TaskTitle: "Stargate Gruppen"
+        PictureFile: Human.jpg
+        Actions:
+          - ActionTitle: "Gruppe Human"
+            Description: "Die Gruppe Human umfasst alle Gestrandeten der SG-Teams. Auf der Startwelt existiert ein Stargate, das im Moment deaktiviert ist.
+            
+            Die Gruppe ist verfeindet mit den Humanoids.
+            
+            Gegenueber den Explorer ist die Gruppe neutral, solange diese sich an die SG-Regeln halten
+            
+            * Keine intelligenten Einheimischen jagen oder toeten
+            
+            * Keine Technologie stehlen.
+            
+            * Nur in Notwehr toeten
+            "
+
+          - ActionTitle: "Gruppe Humanoid"
+            Description: "Die Gruppe Humanoid umfasst alle Gestrandeten des ehemaligen Trust. Auf der Startwelt existiert kein Stargate. 
+            
+            Die Gruppe hatte ein Raumschiff erobert und ist zur Startwelt geflogen und hat hier einen einfachen Stuetzpunkt gebaut.
+
+
+            Die Gruppe ist verfeindet mit den Human.
+            
+            Ziel ist es den System Lords beizutreten um das Erbe der Goa Uld zu uebernehmen.
+            "
+
+          - ActionTitle: "Gruppe Explorer"
+            Description: "Die Gruppe der Explorer umfasst alle Gestrandeten, die losgeflogen sind um die Galaxis auf eigene Faust zu erforschen.
+
+            Die Gruppe ist mit einem erbeuteten Raumschiff zur  Startwelt geflogen und verunglueckt.  Die Teilnehmer landen alle mit einem Escape Pod.
+
+            Es soll eine alte Baiss geben, die als  Stuetzpunkt geeignet ist.  Such sie und baue sie aus.
+            
+            "
+
+          - ActionTitle: "Fraction System Lords"
+            Description: "Eine Gruppe von Individuen, die sich das Ziel gesetzt hat das Erbe der Goa Uld zu uebernehmen. 
+
+            Man vermutet die ehemaligen Mitglieder des Trust hinter diesen Machschaften. Sicher ist aber, dass sie daran interessiert sind Macht zu sammeln und einzusetzen um Ihre Ziele zu erreichen.
+
+            Es ist unklar wo man sie findet.
+
+            TIP : Erobere einen Planeten d.h. keine Alienbasen mehr vorhanden  und tritt der Fraction bei.
+            
+            "
+

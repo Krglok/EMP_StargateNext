@@ -193,7 +193,8 @@ Sectors:
     - Masperon Moon
     - NewAlien2
     - ''
-  Allow:[]
+  Allow:
+  - Trading Outpost
   Deny:
   - Tallodar Orbit
 - Coordinates:
@@ -282,9 +283,10 @@ Sectors:
     - Trading Outpost
     - SpaceTradingStation
     - ''
-  Allow: 
+  Allow: []
+  Deny:
   - Asteroid Field
-  Deny: []
+  - Masperon Orbit
 - Coordinates:
   - 66
   - -1534
@@ -994,7 +996,7 @@ Sectors:
     - RemoteOutpost
     - ''
   Allow:
-  - Alien Outpost
+  - Trading Outpost
   Deny: []
 - Coordinates:
   - 136
