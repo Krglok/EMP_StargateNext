@@ -150,7 +150,7 @@ Sectors:
     - SpaceAsteroidField
     - ''
   Allow:
-  - Mios
+  - Mios Orbit
   Deny:
   - Trading Outpost
 - Coordinates:
@@ -170,9 +170,8 @@ Sectors:
     - NewDesert2
     - ''
   Allow: []
-  Deny:
-  - Roggery Orbit
-  - Sienna Orbit
+  Deny: []
+#  - Roggery Orbit
 - Coordinates:
   - 343
   - 8
@@ -193,7 +192,7 @@ Sectors:
     - Masperon Moon
     - NewAlien2
     - ''
-  Allow:[]
+  Allow: []
   Deny:
   - Tallodar Orbit
 - Coordinates:
@@ -215,46 +214,47 @@ Sectors:
   Allow: []
   Deny:
   - Akua Orbit
-- Coordinates:
-  - -210
-  - -20
-  - -181
-  Color: 0.37, 0.33, 0.04
-  Icon: Circle
-  Playfields:
-  - - 0, 0, 0
-    - Sienna Orbit
-    - SpaceAsteroidsSienna
-    - ''
-  - - 0, 0, 0
-    - Sienna
-    - Snow2
-    - ''
-  - - -2000, 5000, -9000
-    - Sienna Moon
-    - NewMoon2
-    - ''
-  Allow: []
-  Deny:
-  - Zeyhines Orbit
-- Coordinates:
-  - -102
-  - -20
-  - -283
-  Color: 0.37, 0.33, 0.04
-  Icon: Circle
-  Playfields:
-  - - 0, 0, 0
-    - Roggery Orbit
-    - SpaceEmptyRoggery
-    - ''
-  - - 0, 0, 0
-    - Roggery
-    - Desert3
-    - ''
-  Allow: []
+#
+#  - Coordinates:
+#  - -210
+#  - -20
+#  - -181
+#  Color: 0.37, 0.33, 0.04
+#  Icon: Circle
+#  Playfields:
+#  - - 0, 0, 0
+#    - Sienna Orbit
+#    - SpaceAsteroidsSienna
+#    - ''
+#  - - 0, 0, 0
+#    - Sienna
+#    - Snow2
+#    - ''
+#  - - -2000, 5000, -9000
+#    - Sienna Moon
+#    - NewMoon2
+#    - ''
+#  Allow: []
+#  Deny:
+#  - Zeyhines Orbit
+#- Coordinates:
+#  - -102
+#  - -20
+#  - -283
+#  Color: 0.37, 0.33, 0.04
+#  Icon: Circle
+#  Playfields:
+#  - - 0, 0, 0
+#    - Roggery Orbit
+#    - SpaceEmptyRoggery
+#    - ''
+#  - - 0, 0, 0
+#    - Roggery
+#    - Desert3
+#    - ''
+#  Allow: []
 #  - Skillon
-  Deny:
+#  Deny:
   - Zeyhines Orbit
 - Coordinates:
   - 193
@@ -384,10 +384,10 @@ Sectors:
     - Aeris 2
     - Aeris
     - ''
-  - - -3877, 5000, 3485
-    - Placeholder1
-    - MoonPVE
-    - ''
+#  - - -3877, 5000, 3485
+#    - Placeholder1
+#    - MoonPVE
+#    - ''
   Allow: []
   Deny: []
 - Coordinates:
