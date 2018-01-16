@@ -36,15 +36,15 @@ Chapters:
   - ChapterTitle: "Stargate Intro"
     Category: SoloMission 
     Description: "Das Szenario ist im Stargate Universum angesiedelt. Die Goa Uld wurden besiegt. Die Galaxis ist von dieser Geisel befreit. 
-  Aber die Stargates sind ploetzlich ausgefallen. Viele laufende Missionen und SG-Teams sind ploetzlich gestrandet. Ohne die die Moeglichkeit wieder zturueckzukommen.
+    Aber das Stargate der Erde ist ploetzlich ausgefallen. Viele laufende Missionen und SG-Teams sind ploetzlich gestrandet. Ohne die die Moeglichkeit wieder zturueckzukommen.
     Es sei denn man findet die Technologie um eigene Raumschiffe zu bauen, die Sprungtriebwerke haben. Oder ihr wartet einfach bis die Stargates wieder funktionieren.
     Es gibt 3 Hauptfraktionen 
     
     HUMAN sind die Vertreter der SG-Teams.
     
-    HUMANOID sind Menschen die nicht zu den SG-Teams gehoeren.     
+    EXPLOERER sind Menschen die nicht zu den SG-Teams gehoeren.     
     
-    EXPLOERER sind Menschen, die Vertreter der Trust-Teams.
+    HUMANOID sind Menschen, die Vertreter der Trust-Teams.
     
     Die Mitglieder der Gruppen koennen nur Fractionen ihrer eigenben Gruppe beitreten. Zum wechseln muss man neu starten.
     "
@@ -86,7 +86,7 @@ Chapters:
             "
 
           - ActionTitle: "Gruppe Explorer"
-            Description: "Die Gruppe der Explorer umfasst alle Gestrandeten, die losgeflogen sind um die Galaxis auf eigene Faust zu erforschen.
+            Description: "Die Gruppe der Explorer umfasst alle Gestrandeten, die nicht zu den SG  gehoeren und losgeflogen sind um die Galaxis auf eigene Faust zu erforschen.
 
             Die Gruppe ist mit einem erbeuteten Raumschiff zur  Startwelt geflogen und verunglueckt.  Die Teilnehmer landen alle mit einem Escape Pod.
 
@@ -95,7 +95,7 @@ Chapters:
             "
 
           - ActionTitle: "Fraction System Lords"
-            Description: "Eine Gruppe von Individuen, die sich das Ziel gesetzt hat das Erbe der Goa Uld zu uebernehmen. 
+            Description: "Eine Gruppe von Individuen, die sich das Ziel gesetzt hat das Erbe der Goa´Uld zu uebernehmen. 
 
             Man vermutet die ehemaligen Mitglieder des Trust hinter diesen Machschaften. Sicher ist aber, dass sie daran interessiert sind Macht zu sammeln und einzusetzen um Ihre Ziele zu erreichen.
 
