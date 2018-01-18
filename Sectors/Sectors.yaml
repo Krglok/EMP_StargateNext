@@ -570,7 +570,7 @@ Sectors:
   - - 0, 0, 0
     - Aeris
     - Aeris
-    - 'Human:1'
+    - ''
   Allow: []
   Deny: []
 - Coordinates:

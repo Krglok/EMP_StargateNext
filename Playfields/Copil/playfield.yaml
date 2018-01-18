@@ -825,9 +825,9 @@ POIs:
       ResourceDistance: 300
   FixedPlayerStart:
     - Mode: Survival
-      Spawn: EscapePod
-      #Spawn: Structure
-      #Structure: "Wreckage"
+      #Spawn: EscapePod
+      Spawn: Structure
+      Structure: "Wreckage"
       Armor: ArmorHeavy
       Items: [ "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, Chainsaw, InsulationBoost, RadiationBoost, EVABoost, EVABoost, BioFuel:4,Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:700, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20", "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20", "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:20, WaterBottle:2, EnergyCell:20" ]
 DroneBaseSetup:
