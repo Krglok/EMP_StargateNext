@@ -3,15 +3,15 @@ Chapters:
   - ChapterTitle: The Robinson Protocol AKUA
     Preamble: "Willkommen im Stargate Universum!\n\n
     Dies ist ein spezielles Szenarion auf dem Hintergrund der Stargate Story.\n\n
-    [ffff00]Für vollkommen unerfahrene Spieler empfehlen wir das Tutorial bevor man in diesem Multiplayer Spiel startet![-]\n\n
-    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einführen. Es liefert Hintergrundinformationen.\n\n
-    Du solltest es nicht überspringen.[-]"
+    [ffff00]Fuer vollkommen unerfahrene Spieler empfehlen wir das Tutorial bevor man in diesem Multiplayer Spiel startet![-]\n\n
+    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einfuehren. Es liefert Hintergrundinformationen.\n\n
+    Du solltest es nicht ueberspringen.[-]"
     Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
-    Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuelle Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
-    [fff400]2. Wenn du nicht sicher bist was als nächstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
+    Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechende Kapitel der aktuellen Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
+    [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
     [ff2400]Hinweis:[-]\n
-    - Die gelben Screen Marker beenden eine Task , wenn man ihnen bis auf 4m herangeht\n
-    - Wenn eine Task erfordert Gegenstaende von A nach B zu bewegen nicht beendet wird, dann lege sie zurueck und weiderhole das ganze.\n
+    - Die gelben Screen Marker beenden eine Task , wenn man bis auf 4 m herangeht.\n
+    - Wenn eine Task, die erfordert Gegenstaende von A nach B zu bewegen, nicht beendet wird, dann lege sie zurueck und wiederhole das Ganze.\n
     - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
   #  PictureFile: WelcomeBack.jpg
     Category: SoloMission
@@ -25,17 +25,18 @@ Chapters:
     AutoActivateOnGameStart: True
     CompletedMessage: "Robinson Protocol completed! Now you are good to go!\n\n
     * * *\n\n
-    What to do next?\n\n
-    1. [ffff00]Du startest auf einer alten Base der Stargate Teams. Baue sie nicht zu sehr aus. Du must den Planeten sowieso verlassen. Nicht hat hier Bestand ! (Wipe).\n\n
+    Was ist als naechstes zu tun?\n\n
+    1. [ffff00]Du startest auf einer alten Base der Stargate Teams. Baue sie nicht zu sehr aus. Du must den Planeten sowieso verlassen. Nichts hat hier Bestand ! (Wipe).\n\n
     2. Schliesse dich einer Fraktion an. Am Besten eines der SG-Teams.\n\n
-    3. Du must ein kleines Raumschiff mit Warp bauen und um Rohstoffe fuer ein grosses zu bekommen.[-]\n\n
+    3. Du must ein kleines Raumschiff mit Warp bauen um an ausreichend Rohstoffe fuer ein grosses Raumschiff zu kommen.[-]\n\n
     4. Suche einen anderen Planeten um dort eine Basis zu bauen und das Ueberleben zu sichern!\n\n
-    5. [ffff00]Stargate[-] [ff4444] Aternativ kannst du durch das Staragte auf diesem Plaaneten gehen.[-]\n\n
-    [ff4444]6.Es gibt 5 Planeten Systeme. Sie sind durch die Stargates oder durch Wurmloecher erreichbar. \n\n
+    5. [ffff00]Stargate[-] [ff4444] Aternativ kannst du durch das Stargate auf diesem Plaaneten gehen.[-]\n\n
+    6. [ff4444]Es gibt 5 Planeten Systeme. Sie sind durch die Stargates oder durch Wurmloecher erreichbar. \n\n
     7. Die Systeme werden nach ihren Hauptplaneten bezeichnet. AKUA, AERIS, CHILD, MIOS und VULCA \n\n
-    Du bist hier gestrandet und das Stargtae zur Erde funktioniert nicht mehr.\n\n
+    Du bist hier gestrandet. Das Stargtae zur Erde funktioniert nicht mehr.\n\n
     Schaue in den Hintergrund um mehr zu erfahren ueber das Szenario.\n\n
-    Viel Glueck, Mitglied des Stargate Teams!"
+    Viel Glueck, Mitglied des Stargate Teams!
+    "
     CompletedSound: Sounds/Misc/DroneSignalBad
   #  Rewards:
   #    - Item: IronIngot
@@ -44,6 +45,7 @@ Chapters:
   #      Count: 20
   #    - Item: PromethiumPellets
   #      Count: 50
+    #------------------------------------------------------------------------------------
     Tasks:
       - TaskTitle: Personal Container
         PictureFile: Hideout2.jpg
@@ -94,7 +96,7 @@ Chapters:
             CompletedMessage: ""
 
       - TaskTitle: Basic Farming
-        StartMessage: "norm;35|Kuemmer dich um die Nahrungsversorgung mit den Pflanzbeeten. Es sind bereits welche vorhanden!"
+        StartMessage: "norm;35|Kuemmere dich um die Nahrungsversorgung mit den Pflanzbeeten. Es sind bereits welche vorhanden!"
         Actions:
           - ActionTitle: Place Sprouts
             Description: ===
@@ -126,7 +128,7 @@ Chapters:
 
       - TaskTitle: Hole Resources
         StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) or von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
-        Also [fff400]Faelle ein paar Baeume [-] mit der Saege fuer Holz zum herstellen von NitroCellulose fuer Munition."
+        Also [fff400]faelle ein paar Baeume [-] mit der Saege, fuer Holz zum herstellen von NitroCellulose fuer Munition."
         Actions:
           - ActionTitle: 5 Iron Ore
             Description: === 
@@ -156,30 +158,26 @@ Chapters:
             Amount: 3
             AllowManualCompletion: true
             CompletedMessage: ""
-
-
-# Robinson Protocol OMICRON/COPIL
+#----------------------------------------------------------------------------------------------------
+# Robinson Protocol COPIL
  
-  - ChapterTitle: The Robinson Protocol COPIL # OMICRON
+  - ChapterTitle: Das Robinson Protocol COPIL # OMICRON
     Preamble: "Willkommen im Stargate Universum!\n\n
     Dies ist ein spezielles Szenarion auf dem Hintergrund der Stargate Story.\n\n
     [ffff00]Für vollkommen unerfahrene Spieler empfehlen wir das Tutorial bevor man in diesem Multiplayer Spiel startet![-]\n\n
-    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einführen. Es liefert Hintergrundinformationen.\n\n
-    Du solltest es nicht überspringen.[-]"
+    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einfuehren. Es liefert Hintergrundinformationen.\n\n
+    Du solltest es nicht ueberspringen.[-]"
     Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
     Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuelle Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
-    [fff400]2. Wenn du nicht sicher bist was als nächstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
+    [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
     [ff2400]Hinweis:[-]\n
-    - Die gelben Screen Marker beenden eine Task , wenn man ihnen bis auf 4m herangeht\n
-    - Wenn eine Task erfordert Gegenstaende von A nach B zu bewegen nicht beendet wird, dann lege sie zurueck und weiderhole das ganze.\n
+    - Die gelben Screen Marker beenden eine Task , wenn man bis auf 4 m herangeht.\n
+    - Wenn eine Task, die erfordert Gegenstaende von A nach B zu bewegen, nicht beendet wird, dann lege sie zurueck und wiederhole das Ganze.\n
     - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
     Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
-    Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuelle Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
-    [fff400]2. Wenn du nicht sicher bist was als nächstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
-    [ff2400]Hinweis:[-]\n
-    - Die gelben Screen Marker beenden eine Task , wenn man ihnen bis auf 4m herangeht\n
-    - Wenn eine Task erfordert Gegenstaende von A nach B zu bewegen nicht beendet wird, dann lege sie zurueck und weiderhole das ganze.\n
-    - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
+    Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuellen Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
+    [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
+    "
   #  PictureFile: WelcomeBack.jpg
     Category: SoloMission
     PlayerLevel: 1 # (default: 1)
@@ -190,7 +188,6 @@ Chapters:
    # ActivateChapterOnCompletion: chptitleMrsSmith
     NoSkip: True
     AutoActivateOnGameStart: True
-    CompletedMessage: "Robinson Protocol completed! Now you are good to go!\n\n* * *\n\nWhat to do next?\n\n1. [ffff00]Expand your base[-] with wood, concrete or steel building blocks.\n\n2. Build a [ffff00]Large Constructor[-] for crafting more advanced devices.\n\n3. Build a real [ffff00]OXYGEN GENERATOR[-] and place it in a Lake to create large Oxygen Bottles\n\n4. Gather [ffff00]Promethium ore[-] and create [ffff00]Fuel Packs[-] as power source for your O2 generator!\n\n5. Unlock and build better weapons from the [ffff00]Techtree (F3)[-]\n\n6. Build a [ffff00]Minigun- or Cannon Turret[-] to defend against critters and enemy drones!\n\n7. If you are not feeling creative, just make use of the prefabricated bases and ships in the [ffff00]Blueprint Factory[-] [ff4444](F2)[-]\n\n[ff4444]8. PLAY THE TUTORIAL (Main Menu) for MORE details on basic and advanced game mechanics![-]\n\n9.Play the 'Multiplayer Default Scenario' (New Game Menu) if you want more of a challenge without protective shelters at game start!\n\nGood luck, Survivor!"
     CompletedSound: Sounds/Misc/DroneSignalBad
     Rewards:
   #    - Item: IronIngot
@@ -200,40 +197,8 @@ Chapters:
       - Item: PromethiumPellets
         Count: 50
     Tasks:
-      - TaskTitle:  Check EscapePod
-      #  PictureFile: CheckInventory.jpg
-      #  StartMessage: norm;35|"[ff4444]Open the capsule and pick up all the stuff. Move everything to your inventory![-]"
-      #  Rewards:
-      #    - Item: PlayerBikeKit
-      #      Count: 1
-        Actions:
-          - ActionTitle:  Open EscapePod
-            Description: ===
-            Check: InventoryOpened
-            Names: [ EscapePod ]
-            AllowManualCompletion: true
-            CompletedMessage: "norm;35|[ff4444]Nimm alles aus dem Escape Pod. Du wirst es brauchen.[-]"
-          - ActionTitle:  Exit EscapePod
-            Description: ===
-            Check: InventoryClosed
-            Names: [ EscapePod ]
-            AllowManualCompletion: true
-            CompletedMessage: ""  
-
-      - TaskTitle: Find Basis
-        StartDelay: 5
-        PictureFile: Hideout.jpg
-        StartMessage: "norm;35|[ff4444] Besteige das Bike und suche die alte Basis. Dies ist in der harschen Umgebung xtrem wichig."
-        Actions:
-          - ActionTitle: Suche Basis
-            Description: ===
-            Check: NearPoi
-            Names: [ Wreckage ]
-            Guiding: Destination
-            AllowManualCompletion: true
-            CompletedMessage: ""
-
       - TaskTitle: Personal Container
+        StartDelay: 5
         PictureFile: Hideout2.jpg
         StartMessage: "norm;35|Gehe in die Basis und oeffne  [ffff00]Personal Container[-]."
         Rewards:
@@ -258,7 +223,8 @@ Chapters:
       - TaskTitle: Aktivate Base
         PictureFile: Hideout2.jpg
         StartMessage: "norm;35|Benutze den [c][ff4444]Y[-][/c] Button um die Baiss zu aktivieren.\n\n
-        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden."
+        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden.
+        "
         Actions:
           - ActionTitle: Y to activate
             Description: ===
@@ -268,7 +234,7 @@ Chapters:
             CompletedMessage: ""
 
       - TaskTitle: Basic Farming
-        StartMessage: "norm;35|Kuemmer dich um die Nahrungsversorgung mit den Pflanzbeeten. Es sind bereits welche vorhanden!"
+        StartMessage: "norm;35|Kuemmere dich um die Nahrungsversorgung mit den Pflanzbeeten. Es sind bereits welche vorhanden!"
         Actions:
           - ActionTitle: Place Sprouts
             Description: ===
@@ -321,29 +287,30 @@ Chapters:
             Amount: 3
             AllowManualCompletion: true
             CompletedMessage: ""
-
+#------------------------------------------------------------------------
 # Robinson Protocol VULCA
  
-  - ChapterTitle: The Robinson Protocol VULCA # OMICRON
+  - ChapterTitle: Das Robinson Protocol VULCA # OMICRON
     Preamble: "Willkommen im Stargate Universum!\n\n
     Dies ist ein spezielles Szenarion auf dem Hintergrund der Stargate Story.\n\n
     [ffff00]Für vollkommen unerfahrene Spieler empfehlen wir das Tutorial bevor man in diesem Multiplayer Spiel startet![-]\n\n
-    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einführen. Es liefert Hintergrundinformationen.\n\n
-    Du solltest es nicht überspringen.[-]"
+    Das ROBINSON PROTOKOLL soll den Spieler in das Szenario einfuehren. Es liefert Hintergrundinformationen.\n\n
+    Du solltest es nicht ueberspringen.[-]"
     Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
     Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuelle Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
-    [fff400]2. Wenn du nicht sicher bist was als nächstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
+    [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
     [ff2400]Hinweis:[-]\n
-    - Die gelben Screen Marker beenden eine Task , wenn man ihnen bis auf 4m herangeht\n
-    - Wenn eine Task erfordert Gegenstaende von A nach B zu bewegen nicht beendet wird, dann lege sie zurueck und weiderhole das ganze.\n
+    - Die gelben Screen Marker beenden eine Task , wenn man bis auf 4 m herangeht.\n
+    - Wenn eine Task, die erfordert Gegenstaende von A nach B zu bewegen, nicht beendet wird, dann lege sie zurueck und wiederhole das Ganze.\n
     - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
     Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
     Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuelle Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
-    [fff400]2. Wenn du nicht sicher bist was als nächstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
+    [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
     [ff2400]Hinweis:[-]\n
     - Die gelben Screen Marker beenden eine Task , wenn man ihnen bis auf 4m herangeht\n
     - Wenn eine Task erfordert Gegenstaende von A nach B zu bewegen nicht beendet wird, dann lege sie zurueck und weiderhole das ganze.\n
-    - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
+    - Die Info Message zeigt nur die Tasten fuer die Default Einstellung .
+    "
   #  PictureFile: WelcomeBack.jpg
     Category: SoloMission
     PlayerLevel: 1 # (default: 1)
@@ -354,7 +321,17 @@ Chapters:
    # ActivateChapterOnCompletion: chptitleMrsSmith
     NoSkip: True
     AutoActivateOnGameStart: True
-    CompletedMessage: "Robinson Protocol completed! Now you are good to go!\n\n* * *\n\nWhat to do next?\n\n1. [ffff00]Expand your base[-] with wood, concrete or steel building blocks.\n\n2. Build a [ffff00]Large Constructor[-] for crafting more advanced devices.\n\n3. Build a real [ffff00]OXYGEN GENERATOR[-] and place it in a Lake to create large Oxygen Bottles\n\n4. Gather [ffff00]Promethium ore[-] and create [ffff00]Fuel Packs[-] as power source for your O2 generator!\n\n5. Unlock and build better weapons from the [ffff00]Techtree (F3)[-]\n\n6. Build a [ffff00]Minigun- or Cannon Turret[-] to defend against critters and enemy drones!\n\n7. If you are not feeling creative, just make use of the prefabricated bases and ships in the [ffff00]Blueprint Factory[-] [ff4444](F2)[-]\n\n[ff4444]8. PLAY THE TUTORIAL (Main Menu) for MORE details on basic and advanced game mechanics![-]\n\n9.Play the 'Multiplayer Default Scenario' (New Game Menu) if you want more of a challenge without protective shelters at game start!\n\nGood luck, Survivor!"
+    CompletedMessage: "Robinson Protocol completed! Now you are good to go!\n\n* * *\n\nWhat to do next?\n\n
+    1. [ffff00]Expand your base[-] with wood, concrete or steel building blocks.\n\n
+    2. Build a [ffff00]Large Constructor[-] for crafting more advanced devices.\n\n 
+    3. Build a real [ffff00]OXYGEN GENERATOR[-] and place it in a Lake to create large Oxygen Bottles\n\n
+    4. Gather [ffff00]Promethium ore[-] and create [ffff00]Fuel Packs[-] as power source for your O2 generator!\n\n
+    5. Unlock and build better weapons from the [ffff00]Techtree (F3)[-]\n\n
+    6. Build a [ffff00]Minigun- or Cannon Turret[-] to defend against critters and enemy drones!\n\n
+    7. If you are not feeling creative, just make use of the prefabricated bases and ships in the [ffff00]Blueprint Factory[-] [ff4444](F2)[-]\n\n[ff4444]
+    8. PLAY THE TUTORIAL (Main Menu) for MORE details on basic and advanced game mechanics![-]\n\n
+    9.Play the 'Multiplayer Default Scenario' (New Game Menu) if you want more of a challenge without protective shelters at game start!\n\nGood luck, Survivor!
+    "
     CompletedSound: Sounds/Misc/DroneSignalBad
     Rewards:
       - Item: Medikit03
@@ -364,42 +341,9 @@ Chapters:
       - Item: AssaultRifle
         Count: 1
     Tasks:
-      - TaskTitle:  Check EscapePod
-      #  PictureFile: CheckInventory.jpg
-      #  StartMessage: norm;35|"[ff4444]Open the capsule and pick up all the stuff. Move everything to your inventory![-]"
-      #  Rewards:
-      #    - Item: PlayerBikeKit
-      #      Count: 1
-        Actions:
-          - ActionTitle:  Open EscapePod
-            Description: ===
-            Check: InventoryOpened
-            Names: [ EscapePod ]
-            AllowManualCompletion: true
-            CompletedMessage: "norm;35|[ff4444]Nimm alles aus dem Escape Pod. Du wirst es brauchen.[-]"
-          - ActionTitle:  Exit EscapePod
-            Description: ===
-            Check: InventoryClosed
-            Names: [ EscapePod ]
-            AllowManualCompletion: true
-            CompletedMessage: ""  
-
-      - TaskTitle: Find Basis
-        StartDelay: 5
-        PictureFile: Hideout.jpg
-        StartMessage: "norm;35|[ff4444] Besteige das Bike und suche die alte Basis. Dies ist in der harschen Umgebung xtrem wichig."
-        Actions:
-          - ActionTitle: Suche Basis
-            Description: ===
-            Check: NearPoi
-            Names: [ Wreckage ]
-            Guiding: Destination
-            AllowManualCompletion: true
-            CompletedMessage: ""
-
       - TaskTitle: Personal Container
         PictureFile: Hideout2.jpg
-        StartMessage: "norm;35|Gehe in die Basis und oeffne  [ffff00]Personal Container[-]."
+        StartMessage: "norm;35|Gehe in die Basis und oeffne den  [ffff00]Personal Container[-]."
         Rewards:
           - Item: EmergencyRations
             Count: 1 
@@ -422,7 +366,8 @@ Chapters:
       - TaskTitle: Aktivate Base
         PictureFile: Hideout2.jpg
         StartMessage: "norm;35|Benutze den [c][ff4444]Y[-][/c] Button um die Baiss zu aktivieren.\n\n
-        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden."
+        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden.
+        "
         Actions:
           - ActionTitle: Y to activate
             Description: ===
@@ -454,8 +399,9 @@ Chapters:
 
 
       - TaskTitle: Hole Resources
-        StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) or von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
-        Also [fff400]Faelle ein paar Baeume [-] mit der Saege fuer Holz zum herstellen von NitroCellulose fuer Munition."
+        StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) oder von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
+        Also [fff400]Faelle ein paar Baeume [-] mit der Saege fuer Holz zum herstellen von NitroCellulose fuer Munition.
+        "
         Actions:
           - ActionTitle: 5 Iron Ore
             Description: === 
@@ -485,7 +431,7 @@ Chapters:
             Amount: 3
             AllowManualCompletion: true
             CompletedMessage: ""
-
+#===============================================================
 # SINGLE PLAYER MISSIONS
   - ChapterTitle: chptitleDeliciousA
     Category: SoloMission 
@@ -1060,390 +1006,8 @@ Chapters:
             Names: [ GhostTierII, GhostRiderBiolab ]
             Required: NeedOne
             CompletedMessage: $
-
-  - ChapterTitle: chptitleESRace
-    Category: SoloMission
-    Description: chpdescESRace
-    PictureFile: esrace.jpg
-    PlayerLevel: 1
-    Visibility: Always
-    CompletedMessage: chpcompleteESRace
-    Rewards:
-      - Item: MoneyCard
-        Count: 10000
-      - Item: CrystalWarp
-        Count: 50
-      - Item: LaserRifleEpic
-        Count: 1
-    Tasks:
-      - TaskTitle: tasktitleESRace
-        Rewards:
-          - Item: EnergyCell
-            Count: 5
-          - Item: 15mmBullet
-            Count: 750
-          - Item: FastRocketHoming
-            Count: 50
-        Actions:
-          - ActionTitle: acttitleESRace
-            Description: actdescESRace
-            Check: Signal
-            Names:
-              - ESRStart
-            CompletedMessage: actcompleteESRace
-      - TaskTitle: "tasktitleESRace-1"
-        Actions:
-          - ActionTitle: "acttitleESRace-1"
-            Description: "actdescESRace-1"
-            Check: NearPoi
-            Names:
-              - "ESR-Ahax"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-1"
-      - TaskTitle: "tasktitleESRace-2"
-        Actions:
-          - ActionTitle: "acttitleESRace-2"
-            Description: "actdescESRace-2"
-            Check: NearPoi
-            Names:
-              - "ESR-Aloe"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-2"
-      - TaskTitle: "tasktitleESRace-3"
-        Actions:
-          - ActionTitle: "acttitleESRace-3"
-            Description: "actdescESRace-3"
-            Check: NearPoi
-            Names:
-              - "ESR-Corn"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-3"
-      - TaskTitle: "tasktitleESRace-4"
-        Actions:
-          - ActionTitle: "acttitleESRace-4"
-            Description: "actdescESRace-4"
-            Check: NearPoi
-            Names:
-              - "ESR-Durian"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-4"
-      - TaskTitle: "tasktitleESRace-5"
-        Actions:
-          - ActionTitle: "acttitleESRace-5"
-            Description: "actdescESRace-5"
-            Check: NearPoi
-            Names:
-              - "ESR-Kavae"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-5"
-      - TaskTitle: "tasktitleESRace-6"
-        Actions:
-          - ActionTitle: "acttitleESRace-6"
-            Description: "actdescESRace-6"
-            Check: NearPoi
-            Names:
-              - "ESR-Pearthing"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-6"
-      - TaskTitle: "tasktitleESRace-7"
-        Actions:
-          - ActionTitle: "acttitleESRace-7"
-            Description: "actdescESRace-7"
-            Check: NearPoi
-            Names:
-              - "ESR-Pumpkin"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-7"
-      - TaskTitle: "tasktitleESRace-8"
-        Actions:
-          - ActionTitle: "acttitleESRace-8"
-            Description: "actdescESRace-8"
-            Check: NearPoi
-            Names:
-              - "ESR-Tomato"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-8"
-      - TaskTitle: "tasktitleESRace-9"
-        Actions:
-          - ActionTitle: "acttitleESRace-9"
-            Description: "actdescESRace-9"
-            Check: NearPoi
-            Names:
-              - "ESR-Wheat"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-9"
-      - TaskTitle: "tasktitleESRace-10"
-        Actions:
-          - ActionTitle: "acttitleESRace-10"
-            Description: "actdescESRace-10"
-            Check: NearPoi
-            Names:
-              - "ESR-AkuaBerry"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-10"
-      - TaskTitle: "tasktitleESRace-11"
-        Actions:
-          - ActionTitle: "acttitleESRace-11"
-            Description: "actdescESRace-11"
-            Check: NearPoi
-            Names:
-              - "ESR-SpaceOrange"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-11"
-      - TaskTitle: "tasktitleESRace-12"
-        Actions:
-          - ActionTitle: "acttitleESRace-12"
-            Description: "actdescESRace-12"
-            Check: NearPoi
-            Names:
-              - "ESR-Alien-Honey"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-12"
-      - TaskTitle: "tasktitleESRace-13"
-        Actions:
-          - ActionTitle: "acttitleESRace-13"
-            Description: "actdescESRace-13"
-            Check: NearPoi
-            Names:
-              - "ESR-Protein-Plant"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-13"
-      - TaskTitle: "tasktitleESRace-14"
-        Actions:
-          - ActionTitle: "acttitleESRace-14"
-            Description: "actdescESRace-14"
-            Check: NearPoi
-            Names:
-              - "ESR-Fiber"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-14"
-      - TaskTitle: "tasktitleESRace-15"
-        Actions:
-          - ActionTitle: "acttitleESRace-15"
-            Description: "actdescESRace-15"
-            Check: NearPoi
-            Names:
-              - "ESR-Checkpoint-Alien"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-15"
-      - TaskTitle: "tasktitleESRace-16"
-        Actions:
-          - ActionTitle: "acttitleESRace-16"
-            Description: "actdescESRace-16"
-            Check: NearPoi
-            Names:
-              - "ESR-Go-Fin"
-            Guiding: Destination
-            CompletedMessage: "actcompleteESRace-16"
-
-# FACTION MISSIONS
-  - ChapterTitle: chptitleReadFirst
-    Category: FactionMission
-    Description: chpdescReadFirst
-    PictureFile: readfirst.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Tasks:
-      - TaskTitle: tasktitleReadFi
-        PictureFile: readfirst.jpg
-        Actions:
-          - ActionTitle: acttitleFMstart
-            Description: actdescFMstart
-          - ActionTitle: adttitleFMissue
-            Description: actdescFMissue
-
-  - ChapterTitle: chptitleMiningC
-    Category: FactionMission
-    Description: chpdescMiningC
-    PictureFile: miningcorp.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: ContainerMS01
-        Count: 4
-      - Item: ContainerAmmoLarge
-        Count: 4
-      - Item: ConstructorT2
-        Count: 1
-    Tasks:
-      - TaskTitle: tasktitleMiningCo
-        PictureFile: miningcorp.jpg
-        Actions:
-          - ActionTitle: acttitlePromMC
-            Description: actdescPromMC
-            Check: ItemsPickedUp
-            Types: [ PromethiumOre ]
-            Amount: 1000
-            CompletedMessage: $
-
-          - ActionTitle: acttitleMagMC
-            Description: actdescMagMC
-            Check: ItemsPickedUp
-            Types: [ MagnesiumOre ]
-            Amount: 1000
-            CompletedMessage: $
-
-          - ActionTitle: acttitleCobaltMC
-            Description: actdescCobaltMC
-            Check: ItemsPickedUp
-            Types: [ CobaltOre ]
-            Amount: 1000
-            CompletedMessage: $
-
-          - ActionTitle: acttitleSathMC
-            Description: actdescSathMC
-            Check: ItemsPickedUp
-            Types: [ SathiumOre ]
-            Amount: 500
-            CompletedMessage: $
-
-          - ActionTitle: acttitleNeoMC
-            Description: actdescNeoMC
-            Check: ItemsPickedUp
-            Types: [ NeodymiumOre ]
-            Amount: 500
-            CompletedMessage: $
-
-  - ChapterTitle: chptitleGasStation
-    Category: FactionMission
-    Description: chpdescGasStation
-    PictureFile: gasstation.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: FuelTankMSLargeT2
-        Count: 4
-      - Item: WarpDriveTank
-        Count: 1
-    Tasks:
-      - TaskTitle: tasktitleGStation
-        PictureFile: gasstation.jpg
-        Actions:
-          - ActionTitle: acttitleGSlfp
-            Description: actdescGSlfp
-            Check: ItemsCrafted     # output count = 2, so we need to craft 1000 
-            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
-            Types: [ EnergyCellLarge ]
-            Amount: 500
-            CompletedMessage: $
-
-          - ActionTitle: acttitleGSpenta
-            Description: actdescGSpenta
-            Check: ItemsCrafted
-            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
-            Types: [ CrystalWarp ]
-            Amount: 100
-            CompletedMessage: $
-
-  - ChapterTitle: chptitlePfBMedi
-    Category: FactionMission
-    Description: chpdescPfBMedi
-    PictureFile: pfbmedical.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: Medikit03
-        Count: 10
-    Tasks:
-      - TaskTitle: tasktitlePfBMedical
-        PictureFile: pfbmedical.jpg
-        Actions:
-          - ActionTitle: acttitlePfBbandage
-            Description: actdescPfBbandage
-            Check: ItemsCrafted
-            Names: [ FoodProcessorV2 ]
-            Types: [ Bandages ]
-            Amount: 10
-            CompletedMessage: $
-
-          - ActionTitle: acttitlePfBsmallMk
-            Description: actdescPfBsmallMk
-            Check: ItemsCrafted
-            Names: [ FoodProcessorV2 ]
-            Types: [ Medikit02 ]
-            Amount: 10
-            CompletedMessage: $
-
-          - ActionTitle: acttitlePfBantidoteP
-            Description: actdescPfBantidoteP
-            Check: ItemsCrafted
-            Names: [ FoodProcessorV2 ]
-            Types: [ AntidotePills ]
-            Amount: 8
-            CompletedMessage: $
-
-          - ActionTitle: acttitlePfBantidoteI
-            Description: actdescPfBantidoteI
-            Check: ItemsCrafted
-            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
-            Types: [ AntidoteInjection ]
-            Amount: 8
-            CompletedMessage: $
-
-  - ChapterTitle: chptitlePfBSupport
-    Category: FactionMission
-    Description: chpdescPfBSupport
-    PictureFile: pfbsupport.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: EmergencyRations
-        Count: 10
-    Tasks:
-      - TaskTitle: tasktitlePfBSupp
-        PictureFile: pfbsupport.jpg
-        Actions:
-          - ActionTitle: acttitlePfBcannM
-            Description: actdescPfBcannM
-            Check: ItemsCrafted
-            Names: [ FoodProcessorV2 ]
-            Types: [ CannedMeat ]
-            Amount: 5
-            CompletedMessage: $
-
-          - ActionTitle: acttitlePfBcannV
-            Description: actdescPfBcannV
-            Check: ItemsCrafted
-            Names: [ FoodProcessorV2 ]
-            Types: [ CannedVegetables ]
-            Amount: 5
-            CompletedMessage: $
-
-          - ActionTitle: acttitlePfBo2bot
-            Description: actdescPfBo2bot
-            Check: ItemsCrafted
-            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
-            Types: [ OxygenBottleSmall ]
-            Amount: 20
-            CompletedMessage: $
-
-  - ChapterTitle: chptitleRaidApoi
-    Category: FactionMission
-    Description: chpdescRaidApoi
-    PictureFile: raidpoi.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: Sniper2Epic
-        Count: 1
-      - Item: Sniper2Epic
-        Count: 1
-      - Item: Sniper2Epic
-        Count: 1
-      - Item: Sniper2Epic
-        Count: 1
-    Tasks:
-      - TaskTitle: tasktitleRaidAlienP
-        PictureFile: raidpoi.jpg
-        Actions:
-          - ActionTitle: acttitleRaidApoGC
-            Description: actdescRaidApoGC
-            Check: BlocksPlaced
-            Names: [ XenuTierI, EpsilonTierI, GhostTierII, AbandonedMine, AbandonedFactory, DroneBaseAkua, DronebaseOmicron, XenuFortressP1, GhostRiderBiolab, XenuWeaponBunker, GhostRiderDefence, GhostRiderBase ]
-            Types: [ Core ]
-            Required: NeedOne
-            CompletedMessage: $
-            
+#-----------------------------------------------------------------
+#------------------------------------------------------------------            
 # KNOWLEDGE BASE
   - ChapterTitle: chptitleKnowledgebase      # ToDO: check if actions can be fulfilled   
     Category: FAQ
@@ -1793,6 +1357,76 @@ Chapters:
 
           - ActionTitle: acttitleEAC
             Description: actdescEAC
+
+      - TaskTitle: Stargates
+        PictureFile: GlobMisc.jpg 
+        Actions:
+          - ActionTitle: Stargateverbindung
+            Description: "Die Stargate verbinden zwei Basen miteinander. Die können auf einem Planet, Mond oder im Weltraum stehen.\n\n
+                          Jedes Stargate hat eine kleine Basis auf der es steht. Die Basis enthaelt eine Stromversorgung. Wenn diese verbraucht ist, dann kann das Stargate bicht mehr benutzt werden.
+                          ACHTUNG ! Man kann das Stargate trotzdem anwaehlen und hierher springen. Man strandet dann!\n\n
+                          Die Stargates sind nicht automatisch Hin und Zurueck Wege. Manche sind auch Einbahnstrassen.\n\n
+                          Auf einigen Planeten stehen mehrere Stargates nebeneinander.\n\n
+                          Die Planeten sind nicht automatisch sicher. Prinzipiell haben alle eine atembare Atmosphaere oder haben einmal eine besessen.
+                         "
+
+          - ActionTitle: Stargate Center
+            Description: "Das Stargate Center steht auf dem Planeten Erde. Das Stargate kann zur Zeit nicht abgewaehlt werden.\n\n
+                          Alle Teams ausserhalb der Erde sind gestrandet.\n\n
+                          Die Adresse fuer die Erde ist Portal@Stargate:Terra
+                         "
+
+          - ActionTitle: Planet Akua
+            Description: "Der Planet Akua gehoert zu den Planeten auf denen die Stargate Teams einen Stuetzpunkt eingerichtet haben.\n\n
+                          Der Stuetzpunkt dient als Ausgangspunkt fuer die Erforschung des Akua Systems.\n\n
+                          Die Ureinwohner sind friedlich und neutral gegenueber den Stargate Teams.\n\n
+                          Die Stargate Teams greifen die Ureinwohner, sie nennen sich selbst Guardian, nicht an.\n\n
+                          Ebenso werden andere fiedliche Alien nicht angegriffen oder deren Stuetzpunkte erobert.\n\n
+                          In frueheren Zeiten gab es hier einen Goa`Uld Stuetzpunkt. Dieser wurde aber zertsoert.\n\n
+                          Nachdem Ausloeschen der Goa`Uld haben andere Alien Stuetzounkte auf dem Planeten gebaut. Diese Alienvoelker sind nicht unbedingt friedlich der freundlich.
+                          Einige betreiben allerdings Handelsstationen. Die Alien sind also im wesentlichen an den Rohstoffen des Planeten interessiert.
+                          Es geht das Geruecht um, dass biologische Experimente durchgefuehrt werden. Lass dich also nicht gefangennehmen.
+                         "
+
+          - ActionTitle: Exploerer
+            Description: "Die Explorer sind eine Gruppe von Menschen, die auf eigene Faust die Planeten und die Galaxis erforschen wollen.
+                          Sie sind nicht grundsaetzlich feindlich gegenueber den Stargate Teams. Lassen sich aber nicht gerne Vorschriften machen.
+                          Es geht das Geruecht sie haben einen zentralen Stuetzpunkt Planeten in einem anderen Planetensystem.\n\n
+                          Es wird angenommen, dass die Explorer mit dem Trust verbuendet sind.
+                         "
+
+          - ActionTitle: System Lords
+            Description: "Die System Lords sind eine Gruppe von Individuen, Menschen und Nichtmenschen, die sich zum Ziel gesetzt haben das Erbe der Goaùld zu uebernehmen.\n\n
+                          Bisher ist nur wenig ueber die Gruppe, ihre Aktivitaeten und Stuetzpunkte bekannt. Sicher ist, dass im Akua System kein Stuetzpunkt der System Lords ist.\n\n
+                          Es wird empfohlen dieser Gruppe aus dem Weg zu gehen. Es ist damit zu rechnen, dass sie feindlich sind.\n\
+                          Die Stargate Teams betrachtet die Gruppe als Feind!\n\n
+                         "
+
+          - ActionTitle: Planetensystem
+            Description: "Ein Planetensystem besteht aus einer Ansammlung von Planeten, Monden und Asteroiden.\n\n
+                          Die einzelnen Planet sind im allgemeinen nicht weiter als 25 AE voneinander entfernt. (AE = Astronomische Einheiten.\n\n
+                          "
+
+          - ActionTitle: Umlaufbahn
+            Description: "Eine Umlaufbahn bezeichnet einen Platz in einem Planetensystem, an dem ein Planet und seine Begleiter anzutreffen sind.\n\n
+                          Es gibt verschiedene Begleiter: \n\n
+                          - einen oder mehrere Monde\n\n
+                          - Astroiden in unterschiedlicher Anordnung. Ringe, Felder, Wolken \n\n
+                          Eine besondere Form der Umlaufbahn sind die Austeroidenguertel. Hier liegen mehrere Asteroiden Formationen auf der gleichen Umlaufbahn im relativ geringen Abstand.
+                          Im Planetensystem der Erde ist dies der Fall.\n\n
+                          Die meisten Umlaufbahnen sind leer.
+                         "
+
+          - ActionTitle: Planeten und Monde
+            Description: "Die Planeten und Monde sind die massiven Himmelskoerper mit eigener Gravitation.\n\n
+                          Monde wie den Erdmond trifft man haeufiger an. Planetn mit atembarer Atmosphaere sind selten.\n\n
+                         "
+
+          - ActionTitle: Projekt Limayos
+            Description: "Der Planeten Limayos liegt im Planetensystem Aeris. Es sit eines der Besiedelungsprojekte aus der Zeit vor dem Fall der Goa`Uld.\n\n
+                          Ein Gruendungsteam sollte eine Siedlung bauen und den Planeten erschliessen. Die Arbeiten wurden nicht beendet. Das Bauteam wurde abgezogen als der Konflikt mit den Goa`Uld eskalierte.\n\n
+                          Es gibt einen Auftrag fuer die Stargate Teams die Siedlung zu Ende zu bauen und mindestens Platz fuer 50 Siedler zu schaffen und die Versorgung sicher zu stellen und den Planeten zu sichern.\n\n
+                         "
 
 # ENZYCLOPEDIA
 
