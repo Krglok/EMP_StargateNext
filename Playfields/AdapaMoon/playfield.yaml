@@ -89,6 +89,19 @@ MainBiome:
 SubBiomes: []
 BiomeTextureReplacements: []
 Biome:
+  - Altitude:
+      - 0
+      - 45
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: Swamp
+        Id: 1
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+        - [RealRock1, 0]
 - Altitude: [30, 55]
   Slope: [0, 12]
   BiomeClusterData:
