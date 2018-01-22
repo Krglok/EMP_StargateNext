@@ -45,7 +45,7 @@ Sectors:
   - - 0, 0, 0
     - Akua
     - Akua
-    - Human:1
+    - Explorer:2
   - - -6500, 5000, 6500
     - Akua Moon
     - NewMoon2
@@ -845,7 +845,7 @@ Sectors:
     - Areia Orbit
     - Areia-Space
     - ''
-  - - 3394, 861, 2490
+  - - 0, 0, 0
     - Areia
     - Areia
     - ''
@@ -887,11 +887,11 @@ Sectors:
     - Nike Orbit
     - Nike-Space
     - ''
-  - - 3701, 0, 1132
+  - - 0, 0, 0
     - Nike
     - Nike
     - ''
-  - - -4542, -1221, -1583
+  - - -6542, -1221, -6583
     - Nike Moon
     - NormMoong
     - ''

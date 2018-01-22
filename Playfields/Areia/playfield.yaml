@@ -17,13 +17,10 @@ SeaLevel: 29
 PvP: False
 Difficulty: 4
 PlayfieldType: Planet
-Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
-
-
-  Areia is Temperate / Gravity 0.55g / Breathable / Radiation 0.08 / Moons 1 / Sea Level 29.
-
-
-  Start: [c][FFFFFF]Escape Pod [-][/c]"
+Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]\n\n
+  Areia is Temperate / Gravity 0.55g / Breathable / Radiation 0.08 / Moons 1 / Sea Level 29.\n\n
+  Start: [c][FFFFFF]Escape Pod [-][/c]
+"
 
 SunFlare: EnvironmentalEffects/SunFlareYellow2
 AtmosphereEnabled: True
@@ -46,6 +43,7 @@ CloudsOpacity: 0.3475023714385414
 CloudsZenithColor: '0.7380453949532482,0.9433445362482993,0.25723184916940156'
 CloudsHorizonColor: '0.5798977373142595,0.5105181613083941,0.13367753801014828'
 WindSpeed: 4
+#===============================================
 RandomResources:
   - Name: CopperResource
     CountMinMax:
@@ -119,6 +117,7 @@ RandomResources:
       - 15
     DroneProb: 0.20253941435707568
     MaxDroneCount: 3
+#===============================================
 AsteroidResources:
   - Name: CopperResource
     Threshold: 0.38425807113039956
@@ -138,6 +137,7 @@ AsteroidResources:
   - Name: PromethiumResource
     Threshold: 0.306017055054647
     Amount: 0.3629610349678046
+#===============================================
 Terrain:
   Name: TemperateNew2
   PoleLevel: 36
@@ -147,6 +147,7 @@ Terrain:
     YFadeRange: 29
     YFadeMin: -0.10562553743863935
     YFadeMax: -0.25
+#===============================================
 MainBiome:
   Textures:
     - - CliffDark
@@ -231,6 +232,7 @@ SubBiomes:
         - 253
       - - Snow08Cliff
         - 1
+#===============================================
 Biome:
   - Altitude:
       - 3

@@ -1,4 +1,4 @@
-# Created by EPD v1.36.1.0, Playfield Version: 7.0.0 [1294] (Alpha 7.0.0)
+#=========================================================
 TemperatureDay: -130
 Music: ''
 Radiation: 4.5530798253868339
@@ -13,6 +13,7 @@ SunFlare: EnvironmentalEffects/SunFlareRedSpace
 Stars: SkyboxStarsRed
 Nebula: PrefabNebulaBlue
 AtmosphereEnabled: False
+#=========================================================
 DroneBaseSetup:
   Fixed:
   - Name: MainDroneBase
@@ -87,22 +88,14 @@ DroneBaseSetup:
         Amount: 5
     DronePlanetVessel: []
     DronePlanetBase: []
+#=========================================================
 POIs:
   Fixed:
-  - Type: BA_Alien
-    Prefab: BAO_Thermica-Station
-    Mode: Survival
-    Name: Thermica Station
-    Pos: [-2800, 500, -2800]
-    Rot: [0, -50, 0]
-    InitPower: True
-    Properties: []
-    SpawnResource: []
   - Type: BA_Alien
     Prefab: BAO_OrbitalSpire
     Mode: Survival
     Name: Alien Base
-    Pos: [3000, 0, 500]
+    Pos: [0, 1970, 0]
     Rot: [0, 75, 0]
     InitPower: True
     Properties: []
@@ -111,7 +104,7 @@ POIs:
     Prefab: BAO_SpireSatellite
     Mode: Survival
     Name: Alien Satellite
-    Pos: [3000, 100, 700]
+    Pos: [1970, 0, 300]
     Rot: [0, 75, 0]
     InitPower: True
     Properties: []
@@ -120,7 +113,7 @@ POIs:
     Prefab: BAO_SpireSatellite
     Mode: Survival
     Name: Alien Satellite
-    Pos: [3000, 200, 300]
+    Pos: [-1970, 0, -300]
     Rot: [0, 75, 0]
     InitPower: True
     Properties: []
@@ -129,7 +122,16 @@ POIs:
     Prefab: BAO_SpireSatellite
     Mode: Survival
     Name: Alien Satellite
-    Pos: [3200, 200, 300]
+    Pos: [-300, 0, 1970]
+    Rot: [0, 75, 0]
+    InitPower: True
+    Properties: []
+    SpawnResource: []
+  - Type: BA_Alien
+    Prefab: BAO_SpireSatellite
+    Mode: Survival
+    Name: Alien Satellite
+    Pos: [300, 000, -1970]
     Rot: [0, 75, 0]
     InitPower: True
     Properties: []
@@ -138,17 +140,8 @@ POIs:
     Prefab: BAO_XenuSupplyStation
     Mode: Survival
     Name: Supply Station
-    Pos: [-2000, 0, 2000]
+    Pos: [0, -1970, 0]
     Rot: [0, 75, 0]
-    InitPower: True
-    Properties: []
-    SpawnResource: []
-  - Type: BA_Admin
-    Prefab: TSO_AkuaOrbit
-    Mode: Survival
-    Name: Trading Station Akua
-    Pos: [-4400, 2000, -250]
-    Rot: [0, -50, 0]
     InitPower: True
     Properties: []
     SpawnResource: []
@@ -190,35 +183,35 @@ POIs:
   - Type: AsteroidVoxel01Pentaxid
     Prefab: AsteroidVoxel01Pentaxid
     Name: Pentaxid Asteroid
-    Pos: [3000, 400, 300]
+    Pos: [1900, 0, 0]
     Rot: [20, 0, 0]
     Properties: []
     SpawnResource: []
   - Type: AsteroidVoxel01Pentaxid
     Prefab: AsteroidVoxel01Pentaxid
     Name: Pentaxid Asteroid
-    Pos: [2500, 300, 400]
+    Pos: [-1900, 0, 0]
     Rot: [0, 20, 0]
     Properties: []
     SpawnResource: []
   - Type: AsteroidVoxel01Pentaxid
     Prefab: AsteroidVoxel01Pentaxid
     Name: Pentaxid Asteroid
-    Pos: [3300, 500, 400]
+    Pos: [0, 0, 1900]
     Rot: [0, 0, 20]
     Properties: []
     SpawnResource: []
   - Type: AsteroidVoxel01Pentaxid
     Prefab: AsteroidVoxel01Pentaxid
     Name: Pentaxid Asteroid
-    Pos: [3000, -500, 400]
+    Pos: [0, 0, -1900]
     Rot: [30, 0, 0]
     Properties: []
     SpawnResource: []
   - Type: AsteroidVoxel01Pentaxid
     Prefab: AsteroidVoxel01Pentaxid
     Name: Pentaxid Asteroid
-    Pos: [3000, -300, -500]
+    Pos: [1900, -300, -500]
     Rot: [0, 30, 0]
     Properties: []
     SpawnResource: []
@@ -236,13 +229,8 @@ POIs:
     Rot: [0, 0, 0]
     Properties: []
     SpawnResource: []
-  - Type: AsteroidFieldRing
-    Name: Asteroid Field
-    Pos: [0, 0, 0]
-    Rot: [0, 0, 0]
-    Properties: []
-    SpawnResource: []
+#=========================================================
   FixedPlayerStart:
   - Mode: Debug
-    Pos: [-5000, 0, 5000]
+    Pos: [-5000, -200, 5000]
     Items: [CrushedStone, CrushedStone, CrushedStone]

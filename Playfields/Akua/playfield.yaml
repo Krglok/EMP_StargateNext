@@ -24,22 +24,17 @@ SeaLevel: 23
 PvP: False 
 #Seed: 123456 
 #UseFixed: False 
-
 # Playfield difficulty
 Difficulty: 2 
-
 # Planet or Space
 PlayfieldType: Planet 
+#  Das Stargate Team hat hier einen Stuetztpunkt. Du gehoerst zum SG-8 Team. Lies das PDA fuer weitere Erlaeuterungen und Aufgaben.\n\n
 Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
-
-
-  Akua ist einer erdaehnlicher Planet. Er hat eine atenbare Atmosphaere. Die mittlere Temperature ist 23°C und eine Gravitation  von 0.84g.
-
-
-  Das Stargate Team hat hier einen Stuetztpunkt. Du gehoerst zum SG-8 Team. Lies das PDA fuer weitere Erlaeuterungen und Aufgaben.
-
-
-  Start: [c][FFFFFF]Stuetzpunkt[-][/c]"
+  Akua ist einer erdaehnlicher Planet. Er hat eine atembare Atmosphaere. Die mittlere Temperature ist 23°C und eine Gravitation  von 0.84g.\n\n
+  Das Stargate Team hat hier einen Stuetztpunkt zurueckgelassen. Du gehoerst zu einer Gruppe die in Konkurenz zu den Stargate Teams die Galaxis erforscht.\n\ 
+  Lies das PDA fuer weitere Erlaeuterungen und Aufgaben.\n\n
+  Start: [c][FFFFFF]Stuetzpunkt[-][/c]\n\n
+"
 
 # Sun 
 SunFlare: EnvironmentalEffects/SunFlareBlue
