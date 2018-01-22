@@ -70,7 +70,7 @@ MainBiome:
   Textures:
   - [Grass02Cliff, 2]
   - [Cliff, 1]
-  - [RockBrown01, 1]
+  - [RockBrown01, 0]  ## Default Texture
   - [RockBlack, 1]
   - [RockGrey08, 2]
   - [BedrockLava, 1]
