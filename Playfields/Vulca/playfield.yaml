@@ -20,19 +20,15 @@ UseRandom: True
 AllowCV: False
 Difficulty: 3
 PlayfieldType: Planet
-Description: >-
-  Difficulty:[c][FFFFFF] Hard[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
-
-
-  Vulca ist ein Planet mit weiten Savannen und einzelnen Oasen. Bewohnt von einer Alienrasse.
-
-  Der Trust hat hier einen Stuetzpunkt errichtet. Schliess dich der Trust Fraction an. Der Trust ist verfeindet mit den Stargate Teams.
-
-  Aber Vorsicht der Planet ist nicht besonders freundlich zu Besuchern.
-
-  [c][FFFFFF]Achtung man kann nur einer Fraktion der eigenen Herkunft (Origin) beitreten. [-][/c]
-
+Description: "Difficulty:[c][FFFFFF] Hard[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]\n
+  Vulca ist ein Planet mit weiten Savannen und einzelnen Oasen. Bewohnt von einer Alienrasse.\n
+  Eine Gruppe von Abenteurern hat hier ein Camp eingerichtet um nach dem Erbe der GoaUld zu suchen und es zu uebernehmen.\n
+  Sie nennen sich die System Lords.\n\n 
+  Es ist unklar wieviele es gibt und wo sie ihr Hauptquartier haben.\n\
+  Um sich ihnen anzuschliessen muss man eine Pruefung bestehen.\n
+  Aber Vorsicht der Planet ist nicht besonders freundlich zu Besuchern.\n\n
   Start: [c][FFFFFF]Basis [-][/c]
+  "
 SunFlare: EnvironmentalEffects/SunFlareYellow
 SpecialEffectsLocal:
 - Name: Pollen

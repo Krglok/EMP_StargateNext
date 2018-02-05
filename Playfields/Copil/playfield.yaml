@@ -22,23 +22,15 @@ SeaLevel: 27
 PvP: False
 Difficulty: 2
 PlayfieldType: Planet
-Description: "Difficulty:[c][FFFFFF] Medium[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
+Description: "Difficulty:[c][FFFFFF] Medium[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]\n
+  Copil ist ein Eisplanet mit hohen Bergen, Eiswuesten und heissen Quellen. Die Atmosphaere ist nicht atembar.  
+  Sauerstoff kann aus Schneee gewonnen werden.\n\n
+  Dieser Startpunkt ist nur etwas fuer erfahrene Spieler.\n\n
+  Ihr gehoert nicht zu einem der offiziellen Stargate Teams.\n
+  Eure Gruppe wird dem Trust zugerechnet und will auf eigene Faust die Galaxis zu erforschen.\n\n
+  Start: [c][FFFFFF]Basis[-][/c]
+  "  
 
-  Copil ist ein Eisplanet mit hohen Bergen, Eiswuesten und heissen Quellen. Die Atmosphaere ist nicht Atembar.  Sauerstoff kann aus Schneee gewonnen werden.
-  
-  
-  Dieser Startpunkt ist nur etwas fuer erfahren Spieler. Ihr gehoert nicht zu einer der offiziellen Stargate Teams.
-
-  
-  Eine Gruppen von Abenteurern hat hier einen Stuetzpunkt errichtet um auf eigene Faust die Galaxis zu erforschen. 
-  
-  
-  [c][FFFFFF]Achtung man kann nur einer Fraktion der eigenen Herkunft (Origin) beitreten. [-][/c]
-  
-  
-  Start: [c][FFFFFF]Escape Pod[-][/c]"  
-
-  
 SunFlare: EnvironmentalEffects/SunFlareWhite
 AtmosphereEnabled: True
 AtmosphereColor: '0.891662860505241,0.35964519630557845,0.34380415862948216'

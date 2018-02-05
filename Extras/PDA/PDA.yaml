@@ -86,7 +86,8 @@ Chapters:
       - TaskTitle: Aktivate Base
         PictureFile: Hideout2.jpg
         StartMessage: "norm;35|Benutze den [c][ff4444]Y[-][/c] Button um die Baiss zu aktivieren.\n\n
-        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden."
+                       Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden.
+                      "
         Actions:
           - ActionTitle: Y to activate
             Description: ===
@@ -126,38 +127,6 @@ Chapters:
             AllowManualCompletion: true
             CompletedMessage: "" 
 
-      - TaskTitle: Hole Resources
-        StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) or von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
-        Also [fff400]faelle ein paar Baeume [-] mit der Saege, fuer Holz zum herstellen von NitroCellulose fuer Munition."
-        Actions:
-          - ActionTitle: 5 Iron Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ IronOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Copper Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ CopperOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Silicon Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ SiliconOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 3 Wood Logs
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ WoodLogs ]
-            Amount: 3
-            AllowManualCompletion: true
-            CompletedMessage: ""
 #----------------------------------------------------------------------------------------------------
 # Robinson Protocol COPIL
  
@@ -173,9 +142,11 @@ Chapters:
     [ff2400]Hinweis:[-]\n
     - Die gelben Screen Marker beenden eine Task , wenn man bis auf 4 m herangeht.\n
     - Wenn eine Task, die erfordert Gegenstaende von A nach B zu bewegen, nicht beendet wird, dann lege sie zurueck und wiederhole das Ganze.\n
-    - Die Info Message zeigt nur die Tasten fuer die Default Einstellung ."
-    Description: "[fff400]Handling Tips[-]\n1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
-    Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuellen Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
+    - Die Info Message zeigt nur die Tasten fuer die Default Einstellung .
+    "
+    Description: "[fff400]Handling Tips[-]\n
+     1. [fff400]Wird eine wichtige Information vermisst. Bitte an den Admin oder Spieler Lucius wenden?[-]\n
+     Oeffne das PDA mit [ff2400]F1[-], und lese das entsprechnde Kapitel der aktuellen Mission in der Liste und wechsle mit dem linken Button in das [ff2400]PDA LOG[-] mit dem oberen rechten Button.\n\n
     [fff400]2. Wenn du nicht sicher bist was als naechstes zu tun ist[-]\nCheck die TASK liste auf dem rechten Fenster oder suche nach [fff400]gelben Marker[-] auf dem Bildschirm. Sie zeigen eventuell eine interessante Position!\n\n
     "
   #  PictureFile: WelcomeBack.jpg
@@ -223,8 +194,8 @@ Chapters:
       - TaskTitle: Aktivate Base
         PictureFile: Hideout2.jpg
         StartMessage: "norm;35|Benutze den [c][ff4444]Y[-][/c] Button um die Baiss zu aktivieren.\n\n
-        Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden.
-        "
+                       Note: Die Basis hat einen  [ffff00]Capacitor (Solar) + mehrere Solar Panels[-] fuer Energy production. Bedenke das Drohnen die Basis angreifen werden.
+                      "
         Actions:
           - ActionTitle: Y to activate
             Description: ===
@@ -254,39 +225,6 @@ Chapters:
             AllowManualCompletion: true
             CompletedMessage: ""
 
-
-      - TaskTitle: Hole Resources
-        StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) or von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
-        Also [fff400]Faelle ein paar Baeume [-] mit der Saege fuer Holz zum herstellen von NitroCellulose fuer Munition."
-        Actions:
-          - ActionTitle: 5 Iron Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ IronOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Copper Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ CopperOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Silicon Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ SiliconOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 3 Wood Logs
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ WoodLogs ]
-            Amount: 3
-            AllowManualCompletion: true
-            CompletedMessage: ""
 #------------------------------------------------------------------------
 # Robinson Protocol VULCA
  
@@ -397,40 +335,6 @@ Chapters:
             AllowManualCompletion: true
             CompletedMessage: ""
 
-
-      - TaskTitle: Hole Resources
-        StartMessage: "norm;35|Abbau der Resourcen  [fff400]ORES[-], von den Oberflaechensteinen (Drill mode: Stone Mining) oder von den Erzlagern in der Umgebung (Drill mode: Resource mining) zum bauen eines Konstruktors.\n--\n
-        Also [fff400]Faelle ein paar Baeume [-] mit der Saege fuer Holz zum herstellen von NitroCellulose fuer Munition.
-        "
-        Actions:
-          - ActionTitle: 5 Iron Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ IronOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Copper Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ CopperOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 5 Silicon Ore
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ SiliconOre ]
-            Amount: 5
-            AllowManualCompletion: true
-            CompletedMessage: ""
-          - ActionTitle: 3 Wood Logs
-            Description: === 
-            Check: ItemsPickedUp
-            Types: [ WoodLogs ]
-            Amount: 3
-            AllowManualCompletion: true
-            CompletedMessage: ""
 #===============================================================
 # SINGLE PLAYER MISSIONS
   - ChapterTitle: chptitleDeliciousA
@@ -918,651 +822,311 @@ Chapters:
             Check: NearPoi
             Names: [ TSO_AestusOrbit ]
             CompletedMessage: $
-
-  - ChapterTitle: chptitleEpicness
-    Category: SoloMission
-    Description: chpdescEpicness
-    PictureFile: Epicness.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: Explosives
-        Count: 5
-      - Item: Explosives
-        Count: 5
-      - Item: GoldCoins
-        Count: 50
-    Tasks:
-      - TaskTitle: tasktitlePEpicness
-        PictureFile: Epicness.jpg
-        Actions:
-          - ActionTitle: acttitleFindEW
-            Description: actdescFindEW
-            Check: ToolbarContains
-            Types: [ AssaultRifleEpic, Sniper2Epic, MinigunEpic, Shotgun2Epic, LaserRifleEpic, ScifiCannonEpic, PistolEpic, RocketLauncherEpic]
-            Required: NeedOne
-            CompletedMessage: $
-
-  - ChapterTitle: chptitleNoMan
-    Category: SoloMission
-    Description: chpdescNoMan
-    PictureFile: NoMan.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: Explosives
-        Count: 5
-      - Item: Explosives
-        Count: 5
-      - Item: GoldCoins
-        Count: 30
-    Tasks:
-      - TaskTitle: tasktitleGhostRid
-        PictureFile: NoMan.jpg
-        Actions:
-          - ActionTitle: acttitleGhstRidtwo
-            Description: actdescGhstRidtwo
-            Check: BlockDestroyed
-            Types: [ CoreEnemy ]
-            Names: [ GhostTierI ]
-            Required: NeedOne
-            CompletedMessage: $ 
-
-  - ChapterTitle: chptitlePrivMatters
-    Category: SoloMission
-    Description: chpdescPrivMatters
-    PictureFile: PrivMatter.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Rewards:
-      - Item: ScifiCannonEpic
-        Count: 1
-      - Item: SciFiCannonPlasmaCharge
-        Count: 20
-      - Item: GoldCoins
-        Count: 30
-    Tasks:
-      - TaskTitle: tasktitleConquerAS
-        PictureFile: PrivMatter.jpg
-        Actions:
-          - ActionTitle: acttitleEpsilonA
-            Description: actdescEpsilonA
-            Check: BlockDestroyed
-            Types: [ CoreEnemy ]
-            Names: [ EpsilonTierI ]
-            Required: NeedOne
-            CompletedMessage: $
-          - ActionTitle: acttitleXenuO
-            Description: actdescXenuO
-            Check: BlockDestroyed
-            Types: [ CoreEnemy ]
-            Names: [ XenuTierI ]
-            Required: NeedOne
-            CompletedMessage: $
-          - ActionTitle: acttitleGhostRM
-            Description: actdescGhostRM
-            Check: BlockDestroyed
-            Types: [ CoreEnemy ]
-            Names: [ GhostTierII, GhostRiderBiolab ]
-            Required: NeedOne
-            CompletedMessage: $
 #-----------------------------------------------------------------
-#------------------------------------------------------------------            
+#-----------------------------------------------------------------
+# FACTION MISSIONS
+# Rot [ff2400]   / Gelb [ffff00]  normal [-] #
+  - ChapterTitle: "VERY IMPORTANT - PLEASE READ FIRST"
+    Category: FactionMission
+    Description: "[b]VERY IMPORTANT - PLEASE READ FIRST[/b]"
+    PictureFile: readfirst.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: "VERY IMPORTANT - PLEASE READ FIRST"
+        PictureFile: readfirst.jpg
+        Actions:
+          - ActionTitle: "How To FACTION MISSION"
+            Description: "Wenn irgendjemand aus der Fraktion die Mission startet, dann ist er der Leader. Dies wird neben dem Missionstitel angezeigt.\n
+            Dies ist wichtig, weil nur der Leader die Belohnung erhaelt.\n
+            Wenn die MIssion gestartet wurde sehen alle Mitglieder der Fraktion den Status [ffff00]RUNNING[-] neben der Mission in der Missionsliste.\n
+            Wenn man du teilnehmen willst, waehle die Mission aus und Klicke den [ffff00]Aktivieren[-] Button. Der Status wechselt dann auf [ffff00]Supperter[-]. Jetzt traegst du zum Fortschritt der Mission bei.
+            "
+          - ActionTitle: "Known issues and CONSTRAINT"
+            Description: "[b]Important Note:[/b] Faction Missions are still a work-in-progress feature with one important technical constraint:\n\n
+            [b]Mission Fortschritt wird nicht gespeichert[/b]\n
+            Das bedeutet: Anders als bei SinglePlayer Missionen muss eine Faction Mission  in einem Zug erledigt werden. Wenn die MIssion deaktiviert wird, dann geht der Fortschritt verloren.\n
+            Das gleiche passiert , wenn der Leiter der Mission den Server verlaesst.\n
+            Dieser Fehler wird in einer der naechsten Updates behoben.
+            "
+
+#-----------------------------------------------------------------
+
+  - ChapterTitle: "Bergbau Geschaeft"
+    Category: FactionMission
+    Description: "Ein lokaler Haendler sucht eine kleine Menge Erze. Er bietet eine Belohnung von 100 GoldCoin. (1 GoldCoin = 50 Credit)
+                  Dies ist eine gute Moeglichkeit um an Finanzen zu kommen fuer groesere Projekte oder Notlagen.
+                  "
+    PictureFile: miningcorp.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Rewards:
+      - Item: GoldCoins
+        Count: 100
+    Tasks:
+      - TaskTitle: "Erzabbau" 
+        PictureFile: miningcorp.jpg
+        Actions:
+          - ActionTitle: "500 Iron Erz"
+            Description: "Abbau von 500 Eisenerz.
+            Kaufen vom Markt oder nur im Inventory haben erledigt die Mission nicht !
+            "
+            Check: ItemsPickedUp
+            Types: [ IronOre ]
+            Amount: 500
+            CompletedMessage: $
+
+          - ActionTitle: "500 Promethium Erz"
+            Description: "Abbau von 500 Promethium Erz.
+            Kaufen vom Markt oder nur im Inventory haben erledigt die Mission nicht !
+            "
+            Check: ItemsPickedUp
+            Types: [ PromethiumOre ]
+            Amount: 500
+            CompletedMessage: $
+
+          - ActionTitle: "500 Magnesium Erz"
+            Description: "Abbau von 500 Magnesium Erz.
+            Kaufen vom Markt oder nur im Inventory haben erledigt die Mission nicht !
+            "
+            Check: ItemsPickedUp
+            Types: [ MagnesiumOre ]
+            Amount: 500
+            CompletedMessage: $
+
+          - ActionTitle: "1000 Cobalt Erz"
+            Description: "Abbau von 500 Cobalt Erz.
+            Kaufen vom Markt oder nur im Inventory haben erledigt die Mission nicht !
+            "
+            Check: ItemsPickedUp
+            Types: [ CobaltOre ]
+            Amount: 500
+            CompletedMessage: $
+#----------------------------------------------
+  - ChapterTitle: "Projekt Limayos"
+    Category: FactionMission
+    Description: "
+                  
+                  "
+    PictureFile: Limayos.jpg
+    PlayerLevel: 10
+    Visibility: Always    # Always, ByLevel, WhenRewarded
+    Rewards:
+      - Item: GoldCoins
+        Count: 2000
+    Tasks:
+      - TaskTitle: "Limayos Siedlung" 
+        PictureFile: miningcorp.jpg
+        Actions:
+          - ActionTitle: "Betten bauen"
+            Description: "Es muessen Betten fuer 50 Siedler gebaut werden.\n
+            Eine Basis auf Limayos muss die Anzahl Betten enthalten.\n
+            Der Spielleiter kontrolliert dies!
+            "
+            Check: ItemsCrafted	
+            Types: [ DecoBlocks ]
+            Amount: 50
+            CompletedMessage: $
+
+#----------------------------------------------
+#-----------------------------------------------------------------
 # KNOWLEDGE BASE
-  - ChapterTitle: chptitleKnowledgebase      # ToDO: check if actions can be fulfilled   
-    Category: FAQ
-    Description: chpdescKnowledgebase
-    PictureFile: Chapter4.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Tasks:
-      - TaskTitle: tasktitleGGM
-        PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitleBasics
-            Description: actdescBasics
-
-          - ActionTitle: acttitleTechtree
-            Description: actdescTechtree
-
-          - ActionTitle: acttitleOP
-            Description: actdescOP
-
-          - ActionTitle: acttitleLook
-            Description: actdescLook
-
-          - ActionTitle: acttitlePvPvE
-            Description: actdescPvPvE
-
-      - TaskTitle: tasktitleGGM2
-       # PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitleRegistry
-            Description: actdescRegistry
-
-          - ActionTitle: acttitleMarketplace
-            Description: actdescMarketplace
-
-          - ActionTitle: acttitleMapmarkers
-            Description: actdescMapmarkers
-
-      - TaskTitle: tasktitleTemperatur
-        # PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitleTInfo
-            Description: actdescTInfo
-
-          - ActionTitle: acttitleRadInfo
-            Description: actdescRadInfo
-
-          - ActionTitle: acttitleTempRadDevices
-            Description: actdescTempRadDevices
-
-          - ActionTitle: acttitleWeather
-            Description: actdescWeather
-
-      - TaskTitle: tasktitleOxygenRooms
-        # PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitlelORglobal
-            Description: actdescORglobal
-
-          - ActionTitle: acttitleOquest
-            Description: actdescOquest
-
-      - TaskTitle: tasktitlePlayerArmor
-        # PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitlePlayerA
-            Description: actdescPlayerA
-
-          - ActionTitle: acttitleBooster
-            Description: actdescBooster
-
-          - ActionTitle: acttitleDandR
-            Description: actdescDandR
-
-      - TaskTitle: tasktitleTeleport
-        # PictureFile: GGM.jpg
-        Actions:
-          - ActionTitle: acttitlePortal
-            Description: actdescPortal
-
-          - ActionTitle: acttitleInstances
-            Description: actdescInstances
-
-      - TaskTitle: tasktitleSI
-        PictureFile: SI.jpg 
-        Actions:
-          - ActionTitle: acttitleSIwork
-            Description: actdescSIwork
-
-          - ActionTitle: acttitleBAcollaps
-            Description: actdescBAcollaps
-
-          - ActionTitle: acttitleSIoff
-            Description: actdescSIoff
-
-      - TaskTitle: tasktitleHuR
-        PictureFile: HuR.jpg 
-        Actions:
-          - ActionTitle: acttitlePickup
-            Description: actdescPickup
-
-          - ActionTitle: acttitlePentaxid
-            Description: actdescPentaxid
-
-          - ActionTitle: acttitleOre
-            Description: actdescOre
-
-          - ActionTitle: acttitleHarvester
-            Description: actdescHarvester
-
-          - ActionTitle: acttitleChainsaw
-            Description: actdescChainsaw
-
-      - TaskTitle: tasktitleBuilding
-        PictureFile: Building.jpg 
-        Actions:
-          - ActionTitle: acttitleMatz
-            Description: actdescMatz
-
-          - ActionTitle: acttitleBlocks
-            Description: actdescBlocks
-
-          - ActionTitle: acttitleBrotate
-            Description: actdescBrotate
-
-          - ActionTitle: acttitlePlane
-            Description: actdescPlane
-
-          - ActionTitle: acttitleMisc
-            Description: actdescMisc
-
-      - TaskTitle: tasktitleBuilding2
-        PictureFile: Building2.jpg 
-        Actions:
-          - ActionTitle: acttitleMirror
-            Description: actdescMirror
-
-          - ActionTitle: acttitlePaint
-            Description: actdescPaint
-
-          - ActionTitle: acttitleWopac
-            Description: actdescWopac
-
-          - ActionTitle: acttitleSettings
-            Description: actdescSettings
-
-          - ActionTitle: acttitleRename
-            Description: actdescRename
-
-      - TaskTitle: tasktitleVessel
-        PictureFile: Vessel.jpg 
-        Actions:
-          - ActionTitle: acttitleDieO2
-            Description: actdescDieO2
-
-          - ActionTitle: acttitleFlipped
-            Description: actdescFlipped
-
-          - ActionTitle: acttitleHorizon
-            Description: actdescHorizon
-
-          - ActionTitle: acttitleCVtip
-            Description: actdescCVtip
-
-          - ActionTitle: acttitleMCockpit
-            Description: actdescMCockpit
-
-      - TaskTitle: tasktitleVessel2
-        PictureFile: Vessel2.jpg 
-        Actions:
-          - ActionTitle: acttitleDocking
-            Description: actdescDocking
-
-          - ActionTitle: acttitleAccessD
-            Description: actdescAccessD
-
-          - ActionTitle: acttitleWarp
-            Description: actdescWarp
-
-      - TaskTitle: tasktitleWeapon
-        PictureFile: Weapon.jpg 
-        Actions:
-          - ActionTitle: acttitleRange
-            Description: actdescRange
-
-          - ActionTitle: acttitleDamageW
-            Description: actdescDamageW
-
-          - ActionTitle: acttitleEpicW
-            Description: actdescEpicW
-
-          - ActionTitle: acttitleAmmo
-            Description: actdescAmmo
-
-          - ActionTitle: acttitleTaccess
-            Description: actdescTaccess
-
-      - TaskTitle: tasktitlePOI
-        PictureFile: POI.jpg 
-        Actions:
-          - ActionTitle: acttitlePdoor
-            Description: actdescPdoor
-
-          - ActionTitle: acttitlePblocks
-            Description: actdescPblocks
-
-          - ActionTitle: acttitleTeleporter
-            Description: actdescTeleporter
-
-          - ActionTitle: acttitlePbase
-            Description: actdescPbase
-
-          - ActionTitle: acttitleAIvessels
-            Description: actdescAIvessels
-
-      - TaskTitle: tasktitlePdrone
-        PictureFile: Pdrone.jpg 
-        Actions:
-          - ActionTitle: acttitlePlayerD
-            Description: actdescPlayerD
-
-      - TaskTitle: tasktitleFaction
-        PictureFile: Faction.jpg 
-        Actions:
-          - ActionTitle: acttitleJoin
-            Description: actdescJoin
-
-          - ActionTitle: acttitleFvessel
-            Description: actdescFvessel
-
-          - ActionTitle: acttitleFoprot
-            Description: actdescFoprot
-
-          - ActionTitle: acttitleFsetting
-            Description: actdescFsetting
-
-          - ActionTitle: acttitleFally
-            Description: actdescFally
-
-      - TaskTitle: tasktitleCP
-        PictureFile: CP.jpg 
-        Actions:
-          - ActionTitle: acttitleRemote
-            Description: actdescRemote
-
-          - ActionTitle: acttitleRenameD
-            Description: actdescRenameD
-
-          - ActionTitle: acttitleGroup
-            Description: actdescGroup
-
-          - ActionTitle: acttitleSetFaction
-            Description: actdescSetFaction
-
-          - ActionTitle: acttitleHome
-            Description: actdescHome
-
-      - TaskTitle: tasktitleTSigLog
-        PictureFile: CP.jpg 
-        Actions:
-          - ActionTitle: acttitleTriggers
-            Description: actdescTriggers
-
-          - ActionTitle: acttitleHowto
-            Description: actdescHowto
-
-          - ActionTitle: acttitleTtips
-            Description: actdescTtips
-
-          - ActionTitle: acttitleSignal
-            Description: actdescSignal
-
-      - TaskTitle: tasktitleBP
-        PictureFile: BP.jpg 
-        Actions:
-          - ActionTitle: acttitleCreate
-            Description: actdescCreate
-
-          - ActionTitle: acttitleSpawn
-            Description: actdescSpawn
-
-          - ActionTitle: acttitleShortcut
-            Description: actdescShortcut
-
-          - ActionTitle: acttitlePublish
-            Description: actdescPublish
-
-          - ActionTitle: acttitleBPmisc
-            Description: actdescBPmisc
-
-      - TaskTitle: tasktitleCreative
-        PictureFile: Creative.jpg 
-        Actions:
-          - ActionTitle: acttitleRemove
-            Description: actdescRemove
-
-          - ActionTitle: acttitleCmirror
-            Description: actdescCmirror
-
-          - ActionTitle: acttitleCmatz
-            Description: actdescCmatz
-
-          - ActionTitle: acttitleCpoi
-            Description: actdescCpoi
-
-      - TaskTitle: tasktitleConsole
-        PictureFile: Console.jpg 
-        Actions:
-          - ActionTitle: acttitleUse
-            Description: actdescUse
-
-          - ActionTitle: acttitleDestr
-            Description: actdescDestr
-
-          - ActionTitle: acttitleAdmin
-            Description: actdescAdmin
-
-          - ActionTitle: acttitlePgroup
-            Description: actdescPgroup
-
-      - TaskTitle: tasktitlePDAInfo
-        PictureFile: PDAInfo.jpg 
-        Actions:
-          - ActionTitle: acttitleDeactivate
-            Description: actdescDeactivate
-
-          - ActionTitle: acttitleTsks
-            Description: actdescTsks
-
-          - ActionTitle: acttitleFuture
-            Description: actdescFuture
-
-      - TaskTitle: tasktitleGlobMisc
-        PictureFile: GlobMisc.jpg 
-        Actions:
-          - ActionTitle: acttitlePlayer
-            Description: actdescPlayer
-
-          - ActionTitle: acttitleReport
-            Description: actdescReport
-
-          - ActionTitle: acttitleBarriers
-            Description: actdescBarriers
-
-          - ActionTitle: acttitleSaveGame
-            Description: actdescSaveGame
-
-          - ActionTitle: acttitleEAC
-            Description: actdescEAC
-
-
-# ENZYCLOPEDIA
-
-# ENZYCLOPEDIA: Wildlife
-
-  - ChapterTitle: chptitleWildlifePredator  
-    Category: FAQ
-    Description: chptitleWildlifePredator
-  #  PictureFile: Chapter4.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Tasks:
-      - TaskTitle: tasktitleRaptorNight
-        PictureFile: RaptorNight.jpg
-        Actions:
-          - ActionTitle: acttitleRNAgg
-            Description: actdescRNAgg
-          - ActionTitle: acttitleRNAtt
-            Description: actdescRNAtt
-          - ActionTitle: acttitleRNInj
-            Description: actdescRNInj
-          - ActionTitle: acttitleRNLoot
-            Description: actdescRNLoot
-      - TaskTitle: tasktitleSpider01
-        PictureFile: Spider01.jpg
-        Actions:
-          - ActionTitle: acttitleSP01Agg
-            Description: actdescSP01Agg
-          - ActionTitle: acttitleSP01Att
-            Description: actdescSP01Att
-          - ActionTitle: acttitleSP01Inj
-            Description: actdescSP01Inj
-          - ActionTitle: acttitleSP01Loot
-            Description: actdescSP01Loot
-      - TaskTitle: tasktitleSpider02
-        PictureFile: Spider02.jpg
-        Actions:
-          - ActionTitle: acttitleSP02Agg
-            Description: actdescSP02Agg
-          - ActionTitle: acttitleSP02Att
-            Description: actdescSP02Att
-          - ActionTitle: acttitleSP02Inj
-            Description: actdescSP02Inj
-          - ActionTitle: acttitleSP02Loot
-            Description: actdescSP02Loot
-      - TaskTitle: tasktitleSpider03
-        PictureFile: Spider03.jpg
-        Actions:
-          - ActionTitle: acttitleSP03Agg
-            Description: actdescSP03Agg
-          - ActionTitle: acttitleSP03Att
-            Description: actdescSP03Att
-          - ActionTitle: acttitleSP03Inj
-            Description: actdescSP03Inj
-          - ActionTitle: acttitleSP03Loot
-            Description: actdescSP03Loot
-
-  - ChapterTitle: chptitleWildlifePrey  
-    Category: FAQ
-    Description: chpdescWildlifePrey
-  #  PictureFile: Chapter4.jpg
-    PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
-    Tasks:
-      - TaskTitle: tasktitleLizardMuleHerd
-        PictureFile: LizardMule.jpg
-        Actions:
-          - ActionTitle: acttitleLizardMAgg
-            Description: actdescLizardMAgg
-          - ActionTitle: acttitleLizardMAtt
-            Description: actdescLizardMAtt
-          - ActionTitle: acttitleLizardMInj
-            Description: actdescLizardMInj
-          - ActionTitle: acttitleLizardMLoot
-            Description: actdescLizardMLoot
-      - TaskTitle: tasktitleSlimes
-        PictureFile: Slime.jpg
-        Actions:
-          - ActionTitle: acttitleSlimeAgg
-            Description: actdescSlimeAgg
-          - ActionTitle: acttitleSlimeAtt
-            Description: actdescSlimeAtt
-          - ActionTitle: acttitleSlimeInj
-            Description: actdescSlimeInj
-          - ActionTitle: acttitleSlimeLoot
-            Description: actdescSlimeLoot
-      - TaskTitle: tasktitleTriceratopses
-        PictureFile: Triceratops.jpg
-        Actions:
-          - ActionTitle: acttitleTriceratopsesAgg
-            Description: actdescTriceratopsesAgg
-          - ActionTitle: acttitleTriceratopsesAtt
-            Description: actdescTriceratopsesAtt
-          - ActionTitle: acttitleTriceratopsesInj
-            Description: actdescTriceratopsesInj
-          - ActionTitle: acttitleTriceratopsesLoot
-            Description: actdescTriceratopsesLoot
-      - TaskTitle: tasktitleRaptorsHerd
-        PictureFile: Raptor.jpg
-        Actions:
-          - ActionTitle: acttitleRaptorsHerdAgg
-            Description: actdescRaptorsHerdAgg
-          - ActionTitle: acttitleRaptorsHerdAtt
-            Description: actdescRaptorsHerdAtt
-          - ActionTitle: acttitleRaptorsHerdInj
-            Description: actdescRaptorsHerdInj
-          - ActionTitle: acttitleRaptorsHerdLoot
-            Description: actdescRaptorsHerdLoot
-      - TaskTitle: tasktitleAlienBug01
-        PictureFile: AlienBug01.jpg
-        Actions:
-          - ActionTitle: acttitleAlienBug01Agg
-            Description: actdescAlienBug01Agg
-          - ActionTitle: acttitleAlienBug01Att
-            Description: actdescAlienBug01Att
-          - ActionTitle: acttitleAlienBug01Inj
-            Description: actdescAlienBug01Inj
-          - ActionTitle: acttitleAlienBug01Loot
-            Description: actdescAlienBug01Loot
 
 # ENZYCLOPEDIA
 # ENZYCLOPEDIA: Stargate
+# Rot [ff2400]   / Gelb [ffff00]  normal [-] #
   - ChapterTitle: Stargate Universum 
     Category: FAQ
-    Description: "Das Stargate Universum befndet sich in einer Zeit nach dem Fall der Goa`Uld.\n
-    Die alten Machtstrukuren sind zerfallen und neue Gefahren und Verbuendeten erscheinen auf der Bildflaeche.\n
+    Description: "Das Stargate Universum befindet sich in einer Zeit nach dem Fall der Goa`Uld.\n
+    Die alten Machtstrukuren sind zerfallen und neue Gefahren und Verbuendete erscheinen auf der Bildflaeche.\n
     Die Menschheit hat begonnen eigene Kolonien und Besiedelungen einzurichten.\n\n
-    Das Stargate auf der Erde ist aus unbekannten Grueneden ausgefallen und viele SG-Teams sind gestrandet. Die Teams versuchen nun auf eigene Faust zur Erde zurueckzukehren oder ihre Missionen zu erfuellen.\n\n
+    Das Stargate auf der Erde ist aus unbekannten Gruenden ausgefallen und viele SG-Teams sind gestrandet.\n
+    Die Teams versuchen nun auf eigene Faust zur Erde zurueckzukehren oder ihre Missionen zu erfuellen.\n
     Du gehoerst zu einem dieser Teams.\n\n
-    Diese ENZYCLOPEDIE bietet dir Hintergrund Informationen. Der Inhalt wird in unregelmaessigen Abstaenden ergaenzt.
+    Diese ENZYCLOPEDIE bietet dir Hintergrundinformationen. Der Inhalt wird in unregelmaessigen Abstaenden ergaenzt.
     " 
-  #  PictureFile: Chapter4.jpg
     PlayerLevel: 1
-    Visibility: Always    # or ByLevel, WhenRewarded
+    Visibility: Always    ## or ByLevel, WhenRewarded
     Tasks:
       - TaskTitle: Stargates
-        PictureFile: stargate.jpg 
+        PictureFile: stargatenextbasis.jpg
+#        PictureFile: stargate.jpg 
         Actions:
-          - ActionTitle: Stargateverbindung
-            Description: "Die Stargate verbinden zwei Basen miteinander. Die können auf einem Planet, Mond oder im Weltraum stehen.\n
-                          Jedes Stargate hat eine kleine Basis auf der es steht. Die Basis enthaelt eine Stromversorgung. Wenn diese verbraucht ist, dann kann das Stargate bicht mehr benutzt werden.
+          - ActionTitle: "[ffff00]Stargateverbindung"
+            Description: "Die Stargates verbinden zwei Basen miteinander. Diese koennen auf einem Planet, Mond oder im Weltraum stehen.\n
+                          Jedes Stargate hat eine kleine Basis auf der es steht. Die Basis enthaelt eine Stromversorgung.\n
+                          Wenn diese verbraucht ist, dann kann das Stargate bicht mehr benutzt werden.\n
                           ACHTUNG ! Man kann das Stargate trotzdem anwaehlen und hierher springen. Man strandet dann!\n
                           Die Stargates sind nicht automatisch Hin und Zurueck Wege. Manche sind auch Einbahnstrassen.\n
                           Auf einigen Planeten stehen mehrere Stargates nebeneinander.\n
                           Die Planeten sind nicht automatisch sicher. Prinzipiell haben alle eine atembare Atmosphaere oder haben einmal eine besessen.
                          "
-          - ActionTitle: Stargate Center
-            Description: "Das Stargate Center steht auf dem Planeten Erde. Das Stargate kann zur Zeit nicht abgewaehlt werden.\n
+          - ActionTitle: "[ffff00]Stargate Center"
+            Description: "Das Stargate Center steht auf dem Planeten Erde. Das Stargate kann zur Zeit [ff2400]nicht angewaehlt werden[-].\n
                           Alle Teams ausserhalb der Erde sind gestrandet.\n
-                          Die Adresse fuer die Erde ist Portal@Stargate:Terra
+                          Die Adresse fuer die Erde ist Portal@Stargate.Terra
                          "
+#
+#----------------------------------
       - TaskTitle: Stargate Teams
         PictureFile: stargate1.jpg 
         Actions:
-          - ActionTitle: Planet Akua
+          - ActionTitle: "[ffff00]Planet Akua"
             Description: "Der Planet Akua gehoert zu den Planeten auf denen die Stargate Teams einen Stuetzpunkt eingerichtet haben.\n
                           Der Stuetzpunkt dient als Ausgangspunkt fuer die Erforschung des Akua Systems.\n
                           Die Ureinwohner sind friedlich und neutral gegenueber den Stargate Teams.\n
                           Die Stargate Teams greifen die Ureinwohner, sie nennen sich selbst Guardian, nicht an.\n
                           Ebenso werden andere friedliche Alien nicht angegriffen oder deren Stuetzpunkte erobert.\n
                           In frueheren Zeiten gab es hier einen Goa`Uld Stuetzpunkt. Dieser wurde aber zertsoert.\n\n
-                          Nachdem Ausloeschen der Goa`Uld haben andere Alien Stuetzounkte auf dem Planeten gebaut. Diese Alienvoelker sind nicht unbedingt friedlich der freundlich.
+                          Nachdem Ausloeschen der Goa`Uld haben andere Alienvoelker eigene Stuetzpunkte auf dem Planeten gebaut. Diese Alienvoelker sind nicht unbedingt friedlich oder freundlich.
                           Einige betreiben allerdings Handelsstationen. Die Alien sind also im wesentlichen an den Rohstoffen des Planeten interessiert.
                           Es geht das Geruecht um, dass biologische Experimente durchgefuehrt werden. Lass dich also nicht gefangennehmen.
                          "
-
-          - ActionTitle: Exploerer
+#
+          - ActionTitle: "[ffff00]Explorer"
             Description: "Die Explorer sind eine Gruppe von Menschen, die auf eigene Faust die Planeten und die Galaxis erforschen wollen.\n
                           Sie sind nicht grundsaetzlich feindlich gegenueber den Stargate Teams. Lassen sich aber nicht gerne Vorschriften machen.\n
                           Es geht das Geruecht sie haben einen zentralen Stuetzpunkt Planeten in einem anderen Planetensystem.\n\n
                           Es wird angenommen, dass die Explorer mit dem Trust verbuendet sind.
                          "
-
-          - ActionTitle: System Lords
+#
+          - ActionTitle: "[ffff00]System Lords"
             Description: "Die System Lords sind eine Gruppe von Individuen, Menschen und Nichtmenschen, die sich zum Ziel gesetzt haben das Erbe der Goaùld zu uebernehmen.\n
-                          Bisher ist nur wenig ueber die Gruppe, ihre Aktivitaeten und Stuetzpunkte bekannt. Sicher ist, dass im Akua System kein Stuetzpunkt der System Lords ist.\n
+                          Bisher ist nur wenig ueber die Gruppe, ihre Aktivitaeten und Stuetzpunkte bekannt.\n
+                          Sicher ist, dass im Akua System kein Stuetzpunkt der System Lords ist.\n
                           Es wird empfohlen dieser Gruppe aus dem Weg zu gehen. Es ist damit zu rechnen, dass sie feindlich sind.\n\n
-                          Die Stargate Teams betrachtet die Gruppe als Feind!\n
+                          Die Stargate Teams betrachtet die Gruppe als [ff2400]Feind![-]\n
                          "
+#----------------------------------
+#
       - TaskTitle: Astrophysik
         PictureFile: planetundmond.jpg 
         Actions:
-          - ActionTitle: Planetensystem
+          - ActionTitle: "[ffff00]Planetensystem[-]"
             Description: "Ein Planetensystem besteht aus einer Ansammlung von Planeten, Monden und Asteroiden.\n
-                          Die einzelnen Planet sind im allgemeinen nicht weiter als 25 AE voneinander entfernt. (AE = Astronomische Einheiten.\n
+                          Die einzelnen Planet sind im allgemeinen nicht weiter als 25 AE voneinander entfernt. (AE = Astronomische Einheiten)\n
                           "
-          - ActionTitle: Umlaufbahn
+          - ActionTitle: "[ffff00]Umlaufbahn"
             Description: "Eine Umlaufbahn bezeichnet einen Platz in einem Planetensystem, an dem ein Planet und seine Begleiter anzutreffen sind.\n
-                          Es gibt verschiedene Begleiter: \n
-                          * einen oder mehrere Monde\n
-                          * Astroiden in unterschiedlicher Anordnung. Ringe, Felder, Wolken \n
+                          Es gibt verschiedene Begleiter \n
+                          - einen oder mehrere Monde\n
+                          - Astroiden in unterschiedlicher Anordnung. Ringe, Felder, Wolken \n
                           Eine besondere Form der Umlaufbahn sind die Austeroidenguertel. Hier liegen mehrere Asteroiden Formationen auf der gleichen Umlaufbahn im relativ geringen Abstand.
                           Im Planetensystem der Erde ist dies der Fall.\n\n
                           Die meisten Umlaufbahnen sind leer.
                          "
-          - ActionTitle: Planeten und Monde
+          - ActionTitle: "[ffff00]Planeten und Monde"
             Description: "Die Planeten und Monde sind die massiven Himmelskoerper mit eigener Gravitation.\n
                           Monde wie den Erdmond trifft man haeufiger an. Planetn mit atembarer Atmosphaere sind selten.\n
                          "
+          - ActionTitle: "[ffff00]Wurmloch"
+            Description: "Ein Wurmloch ist eine Einstein-Rosen-Bruecke zwischen zwei entfernten Orten im Raum.\n
+                          Mit einem Warptriebwerk koennen damit grosse Entfernungen ueberbrueckt werden.\n
+                          Wurmloecher gelten als instabil und koennen entstehen und verschwinden.\n
+                         "
+#----------------------------------
+      - TaskTitle: Planetensysteme
+        PictureFile: planetundmond.jpg 
+        Actions:
+          - ActionTitle: "[ffff00]Akua System"
+            Description: "Das Akua System ist eines der ersten Planetensystem, dass in diesem Bereich der Galaxis besucht wurde.\n
+                          Es umfasst 9 Umlaufbahnen. Davon sind 2 Asteroidenfelder\n
+                          Auf dem Planeten Akua ist ein Stargate.\n
+                          Der Planet Akua ist als P3H-826 im Stargate Center verzeichnet.
+                          "
+          - ActionTitle: "Aeris System"
+            Description: "Das Aeris System ist ein Nachbarsystem von Akua.\n
+                          Es umfasst 7 Umlaufbahnen. Davon ist 1 ein Asteroidenfelder\n
+                          Auf dem Planeten Aeris sind mehrere Stargates.\n
+                          Auf dem Planeten Limayos versuchen die Stargate Teams eine Kolonie einzurichten.\n
+                          "
+          - ActionTitle: "Lunaris System"
+            Description: "Das Lunaris System ist ein Nachbarsystem von Akua.\n
+                          Es umfasst 7 Umlaufbahnen. Davon ist 1 ein Asteroidenfelder\n
+                          Auf dem Planeten Aeris ist ein Stargate.\n
+                          "
+          - ActionTitle: "Child System"
+            Description: "Das Child System ist ein Nachbarsystem von Akua.\n
+                          Es umfasst 7 Umlaufbahnen. Davon sind 2 Asteroidenfelder\n
+                          Auf dem Planeten Child ist ein Stargate.\n
+                          "
+          - ActionTitle: "Skillon System"
+            Description: "Das Skillon System ist ein Nachbarsystem von Akua.\n
+                          Es umfasst 11 Umlaufbahnen. Davon ist 1 ein Asteroidenfeld\n
+                          Auf dem Planeten Skillon ist ein Stargate.\n
+                          Der Planet Skillon ist als PXY-887 im Stargate Center verzeichnet.\n
+                          Der Planet gilt als aeusserst gefaehrlich. Dort gibt es eine Basis fuer Stargateteams.\n
+                          "
+#          - ActionTitle: "<>"
+#            Description: "Das <> System ist ein Nachbarsystem von [ffff00]Akua[-].\n
+#                          Es umfasst <> Umlaufbahnen. Davon sind <> Asteroidenfelder\n
+#                          Auf dem Planeten <> ist ein Stargate.\n
+#                          Der Planet <> ist als <> im Stargate Center verzeichnet.\n
+#                          "
+# hellblau f1faff / hellgrau [dfdfd6] / Rot [ff2400]   / Gelb [ffff00]  normal [-] #
+#----------------------------------
       - TaskTitle: Stargate Projekte
         PictureFile: Limayos.jpg 
         Actions:
-          - ActionTitle: Projekt Limayos
-            Description: "Der Planeten Limayos liegt im Planetensystem Aeris. Es ist eines der Besiedelungsprojekte aus der Zeit vor dem Fall der Goa`Uld.\n\n
+          - ActionTitle: "[ffff00]Projekt Limayos"
+            Description: "Das Planetensystem Limayos hat nur eine Umlaufbahn. Es kann nur ueber Umwege erreicht werden.\n
+                          Es ist eines der Besiedelungsprojekte aus der Zeit vor dem Fall der Goa`Uld.\n\n
                           Ein Gruendungsteam soll eine Siedlung bauen und den Planeten erschliessen. Die Arbeiten wurden nicht beendet. Das Bauteam wurde abgezogen als der Konflikt mit den Goa`Uld eskalierte.\n
                           Es gibt einen Auftrag fuer die Stargate Teams die Siedlung zu Ende zu bauen und mindestens Platz fuer 50 Siedler zu schaffen, die Versorgung sicher zu stellen und den Planeten zu sichern.\n
                           Du solltest den Planeten suchen. Vielleicht findest du dort ein Team und kannst dich dem Bauprojekt anschliessen.\n
                          "
+#----------------------------------
+      - TaskTitle: Trader Network
+        PictureFile: Console.jpg 
+        Actions:
+          - ActionTitle: "[ffff00]Trader Network"
+            Description: "Das Trader Network ist nach dem Fall der GoaUld entstanden\n\n
+                          Die unterdrueckten Alienvoelker haben die GoaUld Technologie assimiliert und eigene Raumschiffe und Basen gebaut.\n
+                          Explosionsartig haben sich die Voelker ausgebreitet. Sie haben sich verbuendet um gemeinsam die Resourcen der Planetensysteme auszubeuten\n
+                          Die Xenu sind die Haendler in diesem Verbund. Sie haben ein auf fast jedem Planeten eine Handelsstation errichtet.\n
+                          Diese Handelsstationen sind über ein Netzwerk verbunden. Der Hauptknotenpunkt ist die Umlaufbahn Trading Station im System Akua.\n
+                          Von dort kann man viele andere Handelsstationen in verschiedenen Umlaufbahnen erreichen.\n
+                          Aus den Umlaufbahnen kann man die planetaren Handelsstationen erreichen.\n
+                          In den Handelsstationen wird die Verkahrssprache (Englisch) gesprochen.\n
+                         "
+          - ActionTitle: "[ffff00]Nodes of the Trader Network "
+            Description: "Die bekannten Knoten des Handelsnetzwerkes sind:\n\n
+                          - Trading Station : Akua System\n
+                          - Akua : Akua System
+                          - Omicron : Akua System\n
+                          - Ningues : Ningues System\n
+                          - Masperon : Masperomn System\n
+                          \n
+                          Es ist nicht bekannt ob noch weitere Knoten gibt.
+                          [ffff00]Die Knoten koennen zum schnellen Reisen zwischen den Systemen benutzt werden.
+                         "
+#-------------------------------------
+      - TaskTitle: Stargate Netztwerk
+        PictureFile: stargate.jpg 
+        Actions:
+          - ActionTitle: "[ffff00]Knoten des Stargate Netztwerkes"
+            Description: "Das Stagte Netzwerk wurde urspruenglich von der Erde aus benutzt.\n
+                          Das Stargate auf der Erde ist nicht erreichbar. Dies kann bedeuten, dass das Stargate aus Sicherheitsgruenden ausgeschaltet wurde oder das die Erde angegriffen wurde und deshalb nicht erreichbar ist. \n
+                          Ausserdem sind weite Teile des Netzwerkes ausgefallen, was auf einen technischen Defkt hinweist.\n
+                          Ein Verteilerknoten in diesem Sektor ist das System Aeris. Von hier sind diverse Stargate Knoten erreichbar.\n
+                          [ffff00]siehe auch Planetensysteme[-]\n
+                          \n
+                         "
+#          - ActionTitle: "[ffff00]Weitere Stargate Knoten"
+#            Description: ".\n\n
+#                          \n
+#                          \n
+#                          \n
+#                         "
+#
+#-------------------------------------
+#      - TaskTitle: Titel
+#        PictureFile: PlanetView.jpg 
+#        Actions:
+#          - ActionTitle: "[ffff00]Titel"
+#            Description: "Der Titel ist der Titel zu diesem Eintrag.\n\n
+#                          \n
+#                          \n
+#                          \n
+#                         "
+#
